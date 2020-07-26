@@ -4,10 +4,10 @@ Data Visualization of World Active Navy Fleets(as of 2020.08)
 # Includes (displacement > 1500t):
 1. Aircraft Carriers; 
 2. Cruisers;
-3. Amphibious warfare ships(Including Amiphibious Command Ships, Dock landing ships);
+3. Amphibious warfare ships (including Amphibious Command Ships, Amphibious Assualt Ships, Amphibious Transport Dock, Dock landing ships etc.);
 4. Destroyers;
 5. Frigates;
-6. Corvettes; 
+6. Corvettes (including Littoral Combat Ships); 
 7. Submarines 
 
 
