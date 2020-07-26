@@ -14,4 +14,6 @@ Data Visualization of World Active Navy Fleets(as of 2020.08)
 # Does NOT include :
 1. Support ships such as Hospital Ships, Fleet replenishment ships;
 2. Small boats such as patrol boats, mine countermeasurement ships;
-3. Orignal frigates such as USS Contitution;
+3. Spy ships such Chinese Type 815, Russian Vishnya class;
+4. Orignal frigates such as USS Contitution;
+5. Special-purpose submarines from Russia such as BS-64 Podmoskovye;
