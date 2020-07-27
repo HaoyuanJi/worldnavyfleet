@@ -26,10 +26,35 @@
         visualization.donut = {};
 
         var topLevelItem = {label: "Fleet"};
+    
+        var subDataUSNimitz1 = [
+            {colorIndex: 0, value: 1000000, label: "Nimitz (CVN-68)"},
+            {colorIndex: 3, value: 100000, label: "Eisenhower (CVN-69)"}, 
+            {colorIndex: 6, value: 100000, label: "Carl Vinson (CVN-70)"}, 
+            {colorIndex: 9, value: 100000, label: "Theodore Roosevelt (CVN-71)"}, 
+            {colorIndex: 12, value: 100000, label: "Lincoln (CVN-72)"}, 
+        ];
+      
+         var subDataUSNimitz2 = [
+            {colorIndex: 10, value: 100000, label: "George Washington (CVN-73)"},
+            {colorIndex: 0, value: 1000000, label: "Stennis (CVN-74)"},
+            {colorIndex: 3, value: 100000, label: "Truman (CVN-75)"}, 
+            {colorIndex: 6, value: 100000, label: "Reagan (CVN-76)"}, 
+            {colorIndex: 9, value: 100000, label: "Bush (CVN-77)"}, 
+        ];
+      
+        var subDataUSNimitz = [
+            {colorIndex: 0, value: 500000, childData: subDataUSNimitz1, label: "CVN-68~CVN-72"}, 
+            {colorIndex: 8, value: 500000, childData: subDataUSNimitz2, label: "CVN-73~CVN-77"}, 
+        ];
+      
+        var subDataUSFord = [
+            {colorIndex: 0, value: 1000000, label: "Gerald R. Ford(CVN-78)"},
+        ];
       
         var subDataUSAC = [
-            {colorIndex: 0, value: 1000000, label: "Nimitz Class"},
-            {colorIndex: 8, value: 100000, label: "Gerald R. Ford Class"}, 
+            {colorIndex: 0, value: 1000000, childData: subDataUSNimitz, label: "Nimitz Class"},
+            {colorIndex: 8, value: 100000, childData: subDataUSFord, label: "Gerald R. Ford Class"}, 
         ];
       
         var subDataUSBMSOhio = [
@@ -48,18 +73,24 @@
             {colorIndex: 10, value: 18750, label: "Pennsylvania"},
             {colorIndex: 8, value: 18750, label: "Tennessee"}, 
         ];
+        
+        var subDataUSASM = [
+            {colorIndex: 2, value: 193956, label: "Los Angeles Class"},
+            {colorIndex: 6, value: 27414, label: "Seawolf Class"},
+            {colorIndex: 10, value: 150100, label: "Virginia Class"}, 
+        ];
       
-        var subDataUSBMS = [
-            {colorIndex: 2, value: 75000, label: "Ohio Class (Guided Missile Submarine)"},
-            {colorIndex: 10, value: 262500, childData: subDataUSBMSOhio, label: "Ohio Class (Ballistic Missile Submarine)"}, 
+        var subDataUSSM = [
+            {colorIndex: 2, value: 262500, label: "Ballistic Missile Submarine)"},
+            {colorIndex: 6, value: 7500, label: "Attack Submarine)"},
+            {colorIndex: 10, value: 371400, label: "Attack Submarine"}, 
         ];
 
         var subDataUS = [
-            {colorIndex: 0, value: 371470, label: "Attack Submarine"},
-            {colorIndex: 2, value: 337500, childData: subDataUSBMS, label: "Ballistic Missile Submarine"},
+            {colorIndex: 0, value: 371470, childData: subDataUSSM, label: "Submarine"},
+            {colorIndex: 6, value: 65644, label: "Littoral combat ship"},           
+            {colorIndex: 12, value: 930660, label: "Amphibious Warfare Ships"}, 
             {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
-            {colorIndex: 12, value: 930660, label: "Amphibious Warfare Ships"},
-            {colorIndex: 6, value: 65644, label: "Littoral combat ship"},
             {colorIndex: 10, value: 211200, label: "Cruiser"},
             {colorIndex: 8, value: 624654, label: "Destroyer"}, 
         ];
