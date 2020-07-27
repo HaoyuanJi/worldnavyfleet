@@ -397,7 +397,7 @@
 
         function updatePieLabels(){
 
-            chartCenterLabel.text(getCurrentItem().label);
+            chartCenterLabel.text(getCurrentItem().label + " (" + getCurrentItem().value + ")");
 
             chartLabelsGroup.html("");
 
