@@ -28,7 +28,7 @@
         var topLevelItem = {label: "Fleet"};
     
         var subDataUSNimitz1 = [
-            {colorIndex: 0, value: 1000000, label: "Nimitz (CVN-68)"},
+            {colorIndex: 0, value: 100000, label: "Nimitz (CVN-68)"},
             {colorIndex: 3, value: 100000, label: "Eisenhower (CVN-69)"}, 
             {colorIndex: 6, value: 100000, label: "Carl Vinson (CVN-70)"}, 
             {colorIndex: 9, value: 100000, label: "Theodore Roosevelt (CVN-71)"}, 
@@ -37,15 +37,15 @@
       
          var subDataUSNimitz2 = [
             {colorIndex: 10, value: 100000, label: "George Washington (CVN-73)"},
-            {colorIndex: 0, value: 1000000, label: "Stennis (CVN-74)"},
+            {colorIndex: 0, value: 100000, label: "Stennis (CVN-74)"},
             {colorIndex: 3, value: 100000, label: "Truman (CVN-75)"}, 
             {colorIndex: 6, value: 100000, label: "Reagan (CVN-76)"}, 
             {colorIndex: 9, value: 100000, label: "Bush (CVN-77)"}, 
         ];
       
         var subDataUSNimitz = [
-            {colorIndex: 0, value: 500000, childData: subDataUSNimitz1, label: "CVN-68~CVN-72"}, 
-            {colorIndex: 8, value: 500000, childData: subDataUSNimitz2, label: "CVN-73~CVN-77"}, 
+            {colorIndex: 0, value: 500000, childData: subDataUSNimitz1, label: "CVN-68~72"}, 
+            {colorIndex: 8, value: 500000, childData: subDataUSNimitz2, label: "CVN-73~77"}, 
         ];
       
         var subDataUSFord = [
@@ -81,9 +81,9 @@
         ];
       
         var subDataUSSM = [
-            {colorIndex: 2, value: 262500, label: "Ballistic Missile Submarine)"},
-            {colorIndex: 6, value: 7500, label: "Attack Submarine)"},
-            {colorIndex: 10, value: 371400, label: "Attack Submarine"}, 
+            {colorIndex: 2, value: 262500, label: "Ballistic Missile Submarine"},          
+            {colorIndex: 10, value: 371400, childData: subDataUSASM, label: "Attack Submarine"}, 
+            {colorIndex: 6, value: 7500, label: "Guided Missile Submarine"}
         ];
 
         var subDataUS = [
