@@ -27,28 +27,6 @@
 
         var topLevelItem = {label: "Fleet"};
 
-        var subsubsubDataBalt = [
-            {colorIndex: 0, value: 50, label: "Urban"},
-            {colorIndex: 1, value: 10, label: "Rural"},
-            {colorIndex: 2, value: 37, label: "Suburban"}
-        ];
-
-        var subsubDataMD = [
-            {colorIndex: 12, value: 3075, childData: subsubsubDataBalt, label: "Baltimore City"},
-            {colorIndex: 9, value: 6150, label: "Calvert"},
-            {colorIndex: 10, value: 6832, label: "Frederick"},
-            {colorIndex: 11, value: 7516, label: "Cecil"}
-        ];
-
-        var subsubDataWV = [
-            {colorIndex: 12, value: 3075, label: "Jefferson"},
-            {colorIndex: 9, value: 6150, label: "Mineral"},
-            {colorIndex: 10, value: 6832, label: "Morgan"},
-            {colorIndex: 11, value: 7516, label: "Pendleton"},
-            {colorIndex: 13, value: 6150, label: "Berkeley"},
-            {colorIndex: 14, value: 6832, label: "Grant"}
-        ];
-
         var subDataUS = [
             {colorIndex: 14, value: 1100000, label: "Aircraft Carrier"},
             {colorIndex: 12, value: 930660, label: "Amphibious Warfare/Command/Landing Ships"},
@@ -60,16 +38,7 @@
         ];
       
         var subData610 = [        
-            {colorIndex: 7, value: 256440, childData: subsubDataMD, label: "India"},
-            {colorIndex: 8, value: 216494, label: "South Korea"},
-            {colorIndex: 9, value: 186876, label: "Italy"},
-            {colorIndex: 10, value: 171508, label: "Taiwan, China"},
-            {colorIndex: 11, value: 143764, label: "Spain"},
-            {colorIndex: 12, value: 141108, label: "Australia)"},
-        ];
-      
-        var subData610 = [        
-            {colorIndex: 7, value: 256440, childData: subsubDataMD, label: "India"},
+            {colorIndex: 7, value: 256440, label: "India"},
             {colorIndex: 8, value: 216494, label: "South Korea"},
             {colorIndex: 9, value: 186876, label: "Italy"},
             {colorIndex: 10, value: 171508, label: "Taiwan, China"},
@@ -79,11 +48,11 @@
 
         var data = [
             {colorIndex: 0, value: 3641128, childData: subDataUS, label: "United States"},
-            {colorIndex: 1, value: 1196650, childData: subData, label: "P.R.China"},
-            {colorIndex: 2, value: 1063775, childData: subData, label: "Russia"},
-            {colorIndex: 3, value: 481200, childData: subData, label: "Japan"},
+            {colorIndex: 1, value: 1196650, label: "P.R.China"},
+            {colorIndex: 2, value: 1063775, label: "Russia"},
+            {colorIndex: 3, value: 481200, label: "Japan"},
             {colorIndex: 4, value: 324880, label: "UK"},
-            {colorIndex: 5, value: 296770, childData: subData, label: "France"}, 
+            {colorIndex: 5, value: 296770, label: "France"}, 
             {colorIndex: 6, value: 1116190, childData: subData610, label: "Others (#7-#12)"},
         ];
 
