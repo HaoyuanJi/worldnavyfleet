@@ -396,9 +396,12 @@
         }
 
         function updatePieLabels(){
-
-            chartCenterLabel.text(getCurrentItem().value.toString());
-
+            if (getCurrentItem().label == "Fleet") {
+              chartCenterLabel.text(getCurrentItem().label);
+            } else {
+              chartCenterLabel.text(getCurrentItem().value.toString());
+            }
+          
             chartLabelsGroup.html("");
 
             var sliceLabels = chartLabelsGroup.selectAll("text").data(pie(path.data()));
