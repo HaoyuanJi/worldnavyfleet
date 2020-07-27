@@ -1,5 +1,4 @@
-<script type="text/javascript">
-        var subDataUSNimitz = [
+       var subDataUSNimitz = [
             {colorIndex: 0, value: 100000, label: "Nimitz"},
             {colorIndex: 3, value: 100000, label: "Eisenhower"}, 
             {colorIndex: 6, value: 100000, label: "Vinson"}, 
@@ -385,4 +384,3 @@
             {colorIndex: 7, value: 296770, label: "France"}, 
             {colorIndex: 8, value: 1116190, childData: subData610, label: "Others (#7-#12)"},
         ];
-</script>
