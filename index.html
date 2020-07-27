@@ -54,10 +54,57 @@
             {colorIndex: 6, value: 9138, label: "Connecticut"},
             {colorIndex: 14, value: 9138, label: "Jimmy Carter"},
         ];
+      
+        var subDataUSASMLA1 = [
+            {colorIndex: 0, value: 6927, label: "Providence"},
+            {colorIndex: 2, value: 6927, label: "Chicago"},
+            {colorIndex: 4, value: 6927, label: "Key West"},
+            {colorIndex: 6, value: 6927, label: "Oklahoma City"},
+            {colorIndex: 8, value: 6927, label: "Helena"},
+            {colorIndex: 10, value: 6927, label: "Newport News"},
+            {colorIndex: 12, value: 6927, label: "San Juan"},
+        ];
+      
+        var subDataUSASMLA2 = [
+            {colorIndex: 0, value: 6927, label: "Pasadena"},
+            {colorIndex: 2, value: 6927, label: "Albany"},
+            {colorIndex: 4, value: 6927, label: "Topeka"},
+            {colorIndex: 6, value: 6927, label: "Scranton"},
+            {colorIndex: 8, value: 6927, label: "Alexandria"},
+            {colorIndex: 10, value: 6927, label: "Asheville"},
+            {colorIndex: 12, value: 6927, label: "Jefferson City"},
+        ];
+      
+        var subDataUSASMLA3 = [
+            {colorIndex: 0, value: 6927, label: "Annapolis"},
+            {colorIndex: 2, value: 6927, label: "Springfield"},
+            {colorIndex: 4, value: 6927, label: "Columbus"},
+            {colorIndex: 6, value: 6927, label: "Santa Fe"},
+            {colorIndex: 8, value: 6927, label: "Boise"},
+            {colorIndex: 10, value: 6927, label: "Montpelier"},
+            {colorIndex: 12, value: 6927, label: "Charlotte"},
+        ];
+      
+        var subDataUSASMLA4 = [
+            {colorIndex: 0, value: 6927, label: "Hampton"},
+            {colorIndex: 2, value: 6927, label: "Hartford"},
+            {colorIndex: 4, value: 6927, label: "Toledo"},
+            {colorIndex: 6, value: 6927, label: "Tucson"},
+            {colorIndex: 8, value: 6927, label: "Columbia"},
+            {colorIndex: 10, value: 6927, label: "Greeneville"},
+            {colorIndex: 12, value: 6927, label: "Cheyenne"},
+        ];
+      
+        var subDataUSASMLA = [
+            {colorIndex: 6, value: 48489, childData: subDataUSASMLA1, label: "SSN719/721/722/723/725/750/751"},
+            {colorIndex: 2, value: 48489, childData: subDataUSASMLA2, label: "SSN752/753/754/756/767/758/759"},           
+            {colorIndex: 10, value: 48489, childData: subDataUSASMLA3, label: "SSN760~766"}, 
+            {colorIndex: 13, value: 48489, childData: subDataUSASMLA4, label: "SSN767~773"}, 
+        ];
         
         var subDataUSASM = [
             {colorIndex: 6, value: 27414, childData: subDataUSASMSeawolf, label: "Seawolf Class"},
-            {colorIndex: 2, value: 193956, label: "Los Angeles Class"},           
+            {colorIndex: 2, value: 193956, childData: subDataUSASMLA, label: "Los Angeles Class"},           
             {colorIndex: 10, value: 150100, label: "Virginia Class"}, 
         ];
       
