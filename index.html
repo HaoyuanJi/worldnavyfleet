@@ -399,7 +399,7 @@
             if (getCurrentItem().label == "Fleet") {
               chartCenterLabel.text(getCurrentItem().label);
             } else {
-              chartCenterLabel.text(getCurrentItem().value.toString());
+              chartCenterLabel.text(getCurrentItem().label + " (" + getCurrentItem().value.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",") + ")");
             }
           
             chartLabelsGroup.html("");
