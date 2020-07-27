@@ -25,7 +25,7 @@
     (function (visualization){
         visualization.donut = {};
 
-        var topLevelItem = {label: "Source"};
+        var topLevelItem = {label: "Fleet"};
 
         var subsubsubDataBalt = [
             {colorIndex: 0, value: 50, label: "Urban"},
@@ -59,9 +59,10 @@
         ];
 
         var data = [
-            {colorIndex: 0, value: 43, childData: subData, label: "Nitrogen"},
-            {colorIndex: 1, value: 31, childData: subData, label: "Phosphorous"},
-            {colorIndex: 2, value: 16, childData: subData, label: "Sediment"}
+            {colorIndex: 0, value: 3641128, childData: subData, label: "United States"},
+            {colorIndex: 1, value: 1196650, childData: subData, label: "P.R.China"},
+            {colorIndex: 2, value: 1063775, childData: subData, label: "Russia"},
+            {colorIndex: 3, value: 481200, childData: subData, label: "Japan"},
         ];
 
         var dataOriginal = data.slice(0);
