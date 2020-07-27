@@ -357,14 +357,20 @@
 //             {colorIndex: 14, value: 31990, childData: subDataUSDeZ, label: "Zumwalt Class"},
 //         ];
 
-//         var subDataUS = [
+        var subDataUS = [
 //             {colorIndex: 0, value: 371470, childData: subDataUSSM, label: "Submarine"},
 //             {colorIndex: 6, value: 65644, childData: subDataUSLCS, label: "Littoral combat ship"},           
 //             {colorIndex: 12, value: 930660, childData: subDataUSAWS, label: "Amphibious Warfare Ships"}, 
 //             {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
 //             {colorIndex: 10, value: 211200, childData: subDataUSCr, label: "Cruiser"},
 //             {colorIndex: 8, value: 624654, childData: subDataUSDe, label: "Destroyer"}, 
-//         ];
+            {colorIndex: 0, value: 371470, label: "Submarine"},
+            {colorIndex: 6, value: 65644, label: "Littoral combat ship"},           
+            {colorIndex: 12, value: 930660, label: "Amphibious Warfare Ships"}, 
+            {colorIndex: 14, value: 1100000, label: "Aircraft Carrier"},
+            {colorIndex: 10, value: 211200, label: "Cruiser"},
+            {colorIndex: 8, value: 624654, label: "Destroyer"}, 
+        ];
       
         var subData610 = [        
             {colorIndex: 7, value: 256440, label: "India"},
@@ -376,7 +382,7 @@
         ];
 
         var data = [
-            {colorIndex: 0, value: 3641128, label: "U.S."},
+            {colorIndex: 0, value: 3641128, childData: subDataUS, label: "U.S."},
             {colorIndex: 2, value: 1196650, label: "P.R.China"},
             {colorIndex: 4, value: 1063775, label: "Russia"},
             {colorIndex: 5, value: 481200, label: "Japan"},
