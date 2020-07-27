@@ -12,8 +12,10 @@
   </style>
 </head>
 <body>
-  <h1>World Navy Fleet Displacement</h1>
-  <p>unit: metric tons</p>
+  <h1>World Navy Fleets Displacement of Active Combat Ships</h1>
+  <h3>(As of 2020.08)</h3>
+  <h3>unit: metric tons</h3>
+  <h3>only include those > 1000t</h3>
   <div id="graph-container"></div>
   
   <script type="text/javascript">
@@ -23,7 +25,7 @@
     (function (visualization){
         visualization.donut = {};
 
-        var topLevelItem = {label: "Fleet Displacement"};
+        var topLevelItem = {label: "Fleet"};
 
         var subsubsubDataBalt = [
             {colorIndex: 0, value: 50, label: "Urban"},
