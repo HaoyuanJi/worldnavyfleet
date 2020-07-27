@@ -404,13 +404,8 @@
                 .attr('transform', function(d){
                     return "translate(" + arcSmall.centroid(d) + ")";
                 })
-                .append('tspan')
                 .text(function(d, i){
                     return currentData[i].label;
-                })
-                .append('tspan')
-                .text(function(d, i){
-                    return currentData[i].value;
                 });
         }
 
