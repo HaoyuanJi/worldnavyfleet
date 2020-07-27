@@ -183,10 +183,41 @@
             {colorIndex: 10, value: 371400, childData: subDataUSASM, label: "Attack Submarine"}, 
             {colorIndex: 6, value: 75000, childData: subDataUSGMS, label: "Guided Missile Submarine"}
         ];
+      
+        var subDataUSLCS1 = [
+            {colorIndex: 0, value: 3104, label: "Independence"},
+            {colorIndex: 3, value: 3104, label: "Coronado"}, 
+            {colorIndex: 6, value: 3104, label: "Jackson"}, 
+            {colorIndex: 9, value: 3104, label: "Montgomery"}, 
+            {colorIndex: 12, value: 3104, label: "Gabrielle Giffords"},
+            {colorIndex: 10, value: 3104, label: "Omaha"},
+            {colorIndex: 0, value: 3104, label: "Manchester"},
+            {colorIndex: 3, value: 3104, label: "Tulsa"}, 
+            {colorIndex: 6, value: 3104, label: "Charleston"}, 
+            {colorIndex: 9, value: 3104, label: "Cincinnati"}, 
+            {colorIndex: 2, value: 3104, label: "Kansas City"}, 
+        ];
+      
+        var subDataUSLCS2 = [
+            {colorIndex: 0, value: 3500, label: "Freedom"},
+            {colorIndex: 3, value: 3500, label: "Fort Worth"}, 
+            {colorIndex: 6, value: 3500, label: "Milwaukee"}, 
+            {colorIndex: 9, value: 3500, label: "Detroit"}, 
+            {colorIndex: 12, value: 3500, label: "Little Rock"},
+            {colorIndex: 10, value: 3500, label: "Sioux City"},
+            {colorIndex: 0, value: 3500, label: "Wichita"},
+            {colorIndex: 3, value: 3500, label: "Billings"}, 
+            {colorIndex: 6, value: 3500, label: "Indianapolis"}, 
+        ];
+      
+        var subDataUSLCS = [
+            {colorIndex: 2, value: 34144, childData: subDataUSLCS1, label: "Independence Class"},          
+            {colorIndex: 6, value: 31500, childData: subDataUSLCS2, label: "Freedom Class"}
+        ];
 
         var subDataUS = [
             {colorIndex: 0, value: 371470, childData: subDataUSSM, label: "Submarine"},
-            {colorIndex: 6, value: 65644, label: "Littoral combat ship"},           
+            {colorIndex: 6, value: 65644, childData: subDataUSLCS, label: "Littoral combat ship"},           
             {colorIndex: 12, value: 930660, label: "Amphibious Warfare Ships"}, 
             {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
             {colorIndex: 10, value: 211200, label: "Cruiser"},
