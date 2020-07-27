@@ -148,9 +148,13 @@
             {colorIndex: 3, value: 131250, childData: subDataUSGMSOH2, label: "SSBN730~736"},
             {colorIndex: 10, value: 131250, childData: subDataUSGMSOH3, label: "SSBN737~743"},
         ];
+
+        var subDataUSBMS0 = [
+            {colorIndex: 3, value: 262500, childData: subDataUSBMS, label: "Ohio Class"},
+        ];
       
         var subDataUSSM = [
-            {colorIndex: 2, value: 262500, childData: subDataUSBMS, label: "Ballistic Missile Submarine"},          
+            {colorIndex: 2, value: 262500, childData: subDataUSBMS0, label: "Ballistic Missile Submarine"},          
             {colorIndex: 10, value: 371400, childData: subDataUSASM, label: "Attack Submarine"}, 
             {colorIndex: 6, value: 75000, childData: subDataUSGMS, label: "Guided Missile Submarine"}
         ];
