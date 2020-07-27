@@ -210,6 +210,67 @@
             {colorIndex: 6, value: 3500, label: "Indianapolis"}, 
         ];
       
+        var subDataUSWasp = [
+            {colorIndex: 0, value: 41150, label: "Wasp"},
+            {colorIndex: 3, value: 41150, label: "Essex"}, 
+            {colorIndex: 6, value: 41150, label: "Kearsarge"}, 
+            {colorIndex: 9, value: 41150, label: "Boxer"}, 
+            {colorIndex: 12, value: 41150, label: "Bataan"},
+            {colorIndex: 10, value: 41150, label: "Bonhomme Richard"},
+            {colorIndex: 0, value: 41150, label: "Iwo Jima"},
+            {colorIndex: 6, value: 41150, label: "Makin Island"}, 
+        ];
+      
+        var subDataUSAm = [
+            {colorIndex: 0, value: 45693, label: "America"},
+            {colorIndex: 10, value: 45693, label: "Tripoli"}, 
+        ];
+      
+        var subDataUSSa = [
+            {colorIndex: 0, value: 25300, label: "San Antonio"},
+            {colorIndex: 3, value: 25300, label: "New Orleans"}, 
+            {colorIndex: 6, value: 25300, label: "Mesa Verde"}, 
+            {colorIndex: 9, value: 25300, label: "New York"}, 
+            {colorIndex: 12, value: 25300, label: "San Diego"},
+            {colorIndex: 10, value: 25300, label: "Anchorage"},
+            {colorIndex: 0, value: 25300, label: "Arlington"},
+            {colorIndex: 1, value: 25300, label: "Somerset"}, 
+            {colorIndex: 8, value: 25300, label: "Murtha"},
+            {colorIndex: 2, value: 25300, label: "Portland"},
+        ];
+      
+        var subDataUSWi = [
+            {colorIndex: 0, value: 16100, label: "Whidbey Island"},
+            {colorIndex: 3, value: 16100, label: "Germantown"}, 
+            {colorIndex: 6, value: 16100, label: "Fort McHenry"}, 
+            {colorIndex: 9, value: 16100, label: "Gunston Hall"}, 
+            {colorIndex: 12, value: 16100, label: "Comstock"},
+            {colorIndex: 10, value: 16100, label: "Tortuga"},
+            {colorIndex: 0, value: 16100, label: "Rushmore"},
+            {colorIndex: 1, value: 16100, label: "Ashland"}, 
+        ];
+      
+         var subDataUSHf = [
+            {colorIndex: 0, value: 15939, label: "Harpers Ferry"},
+            {colorIndex: 3, value: 15939, label: "Carter Hall"}, 
+            {colorIndex: 6, value: 15939, label: "Oak Hill"}, 
+            {colorIndex: 9, value: 15939, label: "Pearl Harbor"}, 
+        ];
+      
+        var subDataUSBr = [
+            {colorIndex: 0, value: 19609, label: "Blue Ridge"},
+            {colorIndex: 9, value: 19609, label: "Mount Whitney"},  
+        ];
+      
+        var subDataUSAWS = [
+            {colorIndex: 2, value: 329200, childData: subDataUSWasp, label: "Wasp Class"},          
+            {colorIndex: 6, value: 91386, childData: subDataUSAm, label: "America Class"}, 
+            {colorIndex: 9, value: 278300, childData: subDataUSSa, label: "San Antonio Class"}, 
+            {colorIndex: 12, value: 128800, childData: subDataUSWi, label: "Whidbey Island Class"},
+            {colorIndex: 10, value: 63756, childData: subDataUSHf, label: "Harpers Ferry Class"},
+            {colorIndex: 10, value: 39218, childData: subDataUSBr, label: "Blue Ridge Class"},
+        ];
+      
         var subDataUSLCS = [
             {colorIndex: 2, value: 34144, childData: subDataUSLCS1, label: "Independence Class"},          
             {colorIndex: 6, value: 31500, childData: subDataUSLCS2, label: "Freedom Class"}
@@ -218,7 +279,7 @@
         var subDataUS = [
             {colorIndex: 0, value: 371470, childData: subDataUSSM, label: "Submarine"},
             {colorIndex: 6, value: 65644, childData: subDataUSLCS, label: "Littoral combat ship"},           
-            {colorIndex: 12, value: 930660, label: "Amphibious Warfare Ships"}, 
+            {colorIndex: 12, value: 930660, childData: subDataUSAWS, label: "Amphibious Warfare Ships"}, 
             {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
             {colorIndex: 10, value: 211200, label: "Cruiser"},
             {colorIndex: 8, value: 624654, label: "Destroyer"}, 
