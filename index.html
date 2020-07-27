@@ -57,6 +57,13 @@
             {colorIndex: 7, value: 500, childData: subsubDataWV, label: "West Virginia"}
 
         ];
+      
+        var subData610 = [
+            {colorIndex: 6, value: 276400, label: "UK"},
+            {colorIndex: 7, value: 256440, childData: subsubDataMD, label: "India"},
+            {colorIndex: 8, value: 186876, label: "Italy"},
+            {colorIndex: 9, value: 600000, label: "Others"},
+        ];
 
         var data = [
             {colorIndex: 0, value: 3641128, childData: subData, label: "United States"},
@@ -64,7 +71,7 @@
             {colorIndex: 2, value: 1063775, childData: subData, label: "Russia"},
             {colorIndex: 3, value: 481200, childData: subData, label: "Japan"},
             {colorIndex: 4, value: 296770, childData: subData, label: "France"},
-            {colorIndex: 6, value: 800000, childData: subData, label: "Others"},
+            {colorIndex: 5, value: 800000, childData: subData610, label: "Others"},
         ];
 
         var dataOriginal = data.slice(0);
@@ -398,7 +405,7 @@
 
         function updatePieLabels(){
 
-            if (getCurrentItem().label == "Fleet") {
+            if (getCurrentItem().label == "Fleet" || getCurrentItem().label == "Others") {
               chartCenterLabel.text(getCurrentItem().label);
             } else {
               chartCenterLabel.text(getCurrentItem().label + " (" + getCurrentItem().value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + ")");
