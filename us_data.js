@@ -20,140 +20,140 @@
 //             {colorIndex: 8, value: 100000, childData: subDataUSFord, label: "Gerald R. Ford Class"}, 
 //         ];
       
-//         var subDataUSASMSeawolf = [
-//             {colorIndex: 0, value: 9138, label: "Seawolf"},
-//             {colorIndex: 6, value: 9138, label: "Connecticut"},
-//             {colorIndex: 14, value: 9138, label: "Jimmy Carter"},
-//         ];
+        var subDataUSASMSeawolf = [
+            {colorIndex: 0, value: 9138, label: "Seawolf"},
+            {colorIndex: 6, value: 9138, label: "Connecticut"},
+            {colorIndex: 14, value: 9138, label: "Jimmy Carter"},
+        ];
       
-//         var subDataUSASMLA1 = [
-//             {colorIndex: 0, value: 6927, label: "Providence"},
-//             {colorIndex: 2, value: 6927, label: "Chicago"},
-//             {colorIndex: 4, value: 6927, label: "Key West"},
-//             {colorIndex: 6, value: 6927, label: "Oklahoma City"},
-//             {colorIndex: 8, value: 6927, label: "Helena"},
-//             {colorIndex: 10, value: 6927, label: "Newport News"},
-//             {colorIndex: 12, value: 6927, label: "San Juan"},
-//         ];
+        var subDataUSASMLA1 = [
+            {colorIndex: 0, value: 6927, label: "Providence"},
+            {colorIndex: 2, value: 6927, label: "Chicago"},
+            {colorIndex: 4, value: 6927, label: "Key West"},
+            {colorIndex: 6, value: 6927, label: "Oklahoma City"},
+            {colorIndex: 8, value: 6927, label: "Helena"},
+            {colorIndex: 10, value: 6927, label: "Newport News"},
+            {colorIndex: 12, value: 6927, label: "San Juan"},
+        ];
       
-//         var subDataUSASMLA2 = [
-//             {colorIndex: 0, value: 6927, label: "Pasadena"},
-//             {colorIndex: 2, value: 6927, label: "Albany"},
-//             {colorIndex: 4, value: 6927, label: "Topeka"},
-//             {colorIndex: 6, value: 6927, label: "Scranton"},
-//             {colorIndex: 8, value: 6927, label: "Alexandria"},
-//             {colorIndex: 10, value: 6927, label: "Asheville"},
-//             {colorIndex: 12, value: 6927, label: "Jefferson City"},
-//         ];
+        var subDataUSASMLA2 = [
+            {colorIndex: 0, value: 6927, label: "Pasadena"},
+            {colorIndex: 2, value: 6927, label: "Albany"},
+            {colorIndex: 4, value: 6927, label: "Topeka"},
+            {colorIndex: 6, value: 6927, label: "Scranton"},
+            {colorIndex: 8, value: 6927, label: "Alexandria"},
+            {colorIndex: 10, value: 6927, label: "Asheville"},
+            {colorIndex: 12, value: 6927, label: "Jefferson City"},
+        ];
       
-//         var subDataUSASMLA3 = [
-//             {colorIndex: 0, value: 6927, label: "Annapolis"},
-//             {colorIndex: 2, value: 6927, label: "Springfield"},
-//             {colorIndex: 4, value: 6927, label: "Columbus"},
-//             {colorIndex: 6, value: 6927, label: "Santa Fe"},
-//             {colorIndex: 8, value: 6927, label: "Boise"},
-//             {colorIndex: 10, value: 6927, label: "Montpelier"},
-//             {colorIndex: 12, value: 6927, label: "Charlotte"},
-//         ];
+        var subDataUSASMLA3 = [
+            {colorIndex: 0, value: 6927, label: "Annapolis"},
+            {colorIndex: 2, value: 6927, label: "Springfield"},
+            {colorIndex: 4, value: 6927, label: "Columbus"},
+            {colorIndex: 6, value: 6927, label: "Santa Fe"},
+            {colorIndex: 8, value: 6927, label: "Boise"},
+            {colorIndex: 10, value: 6927, label: "Montpelier"},
+            {colorIndex: 12, value: 6927, label: "Charlotte"},
+        ];
       
-//         var subDataUSASMLA4 = [
-//             {colorIndex: 0, value: 6927, label: "Hampton"},
-//             {colorIndex: 2, value: 6927, label: "Hartford"},
-//             {colorIndex: 4, value: 6927, label: "Toledo"},
-//             {colorIndex: 6, value: 6927, label: "Tucson"},
-//             {colorIndex: 8, value: 6927, label: "Columbia"},
-//             {colorIndex: 10, value: 6927, label: "Greeneville"},
-//             {colorIndex: 12, value: 6927, label: "Cheyenne"},
-//         ];
+        var subDataUSASMLA4 = [
+            {colorIndex: 0, value: 6927, label: "Hampton"},
+            {colorIndex: 2, value: 6927, label: "Hartford"},
+            {colorIndex: 4, value: 6927, label: "Toledo"},
+            {colorIndex: 6, value: 6927, label: "Tucson"},
+            {colorIndex: 8, value: 6927, label: "Columbia"},
+            {colorIndex: 10, value: 6927, label: "Greeneville"},
+            {colorIndex: 12, value: 6927, label: "Cheyenne"},
+        ];
       
-//         var subDataUSASMLA = [
-//             {colorIndex: 6, value: 48489, childData: subDataUSASMLA1, label: "SSN719/721/722/723/725/750/751"},
-//             {colorIndex: 2, value: 48489, childData: subDataUSASMLA2, label: "SSN752/753/754/756/767/758/759"},           
-//             {colorIndex: 10, value: 48489, childData: subDataUSASMLA3, label: "SSN760~766"}, 
-//             {colorIndex: 13, value: 48489, childData: subDataUSASMLA4, label: "SSN767~773"}, 
-//         ];
+        var subDataUSASMLA = [
+            {colorIndex: 6, value: 48489, childData: subDataUSASMLA1, label: "SSN719/721/722/723/725/750/751"},
+            {colorIndex: 2, value: 48489, childData: subDataUSASMLA2, label: "SSN752/753/754/756/767/758/759"},           
+            {colorIndex: 10, value: 48489, childData: subDataUSASMLA3, label: "SSN760~766"}, 
+            {colorIndex: 13, value: 48489, childData: subDataUSASMLA4, label: "SSN767~773"}, 
+        ];
       
-//         var subDataUSASMVA1 = [
-//             {colorIndex: 6, value: 7900, label: "Virginia"},
-//             {colorIndex: 2, value: 7900, label: "Texas"},           
-//             {colorIndex: 10, value: 7900, label: "Hawaii"}, 
-//             {colorIndex: 0, value: 7900, label: "North Carolina"},
-//             {colorIndex: 5, value: 7900, label: "New Hampshire"},           
-//             {colorIndex: 14, value: 7900, label: "New Mexico"}, 
-//         ];
+        var subDataUSASMVA1 = [
+            {colorIndex: 6, value: 7900, label: "Virginia"},
+            {colorIndex: 2, value: 7900, label: "Texas"},           
+            {colorIndex: 10, value: 7900, label: "Hawaii"}, 
+            {colorIndex: 0, value: 7900, label: "North Carolina"},
+            {colorIndex: 5, value: 7900, label: "New Hampshire"},           
+            {colorIndex: 14, value: 7900, label: "New Mexico"}, 
+        ];
       
-//         var subDataUSASMVA2 = [
-//             {colorIndex: 6, value: 7900, label: "Missouri"},
-//             {colorIndex: 2, value: 7900, label: "California"},           
-//             {colorIndex: 10, value: 7900, label: "Mississippi"}, 
-//             {colorIndex: 0, value: 7900, label: "Minnesota"},
-//             {colorIndex: 5, value: 7900, label: "North Dakota"},           
-//             {colorIndex: 14, value: 7900, label: "John Warner"},         
-//         ];
+        var subDataUSASMVA2 = [
+            {colorIndex: 6, value: 7900, label: "Missouri"},
+            {colorIndex: 2, value: 7900, label: "California"},           
+            {colorIndex: 10, value: 7900, label: "Mississippi"}, 
+            {colorIndex: 0, value: 7900, label: "Minnesota"},
+            {colorIndex: 5, value: 7900, label: "North Dakota"},           
+            {colorIndex: 14, value: 7900, label: "John Warner"},         
+        ];
       
-//        var subDataUSASMVA3 = [
-//             {colorIndex: 6, value: 7900, label: "Illinois"},
-//             {colorIndex: 2, value: 7900, label: "Washington"},           
-//             {colorIndex: 10, value: 7900, label: "Colorado"}, 
-//             {colorIndex: 0, value: 7900, label: "Indiana"},
-//             {colorIndex: 5, value: 7900, label: "South Dakota"},           
-//             {colorIndex: 14, value: 7900, label: "Delaware"}, 
-//             {colorIndex: 3, value: 7900, label: "Vermont"}, 
-//        ];
+       var subDataUSASMVA3 = [
+            {colorIndex: 6, value: 7900, label: "Illinois"},
+            {colorIndex: 2, value: 7900, label: "Washington"},           
+            {colorIndex: 10, value: 7900, label: "Colorado"}, 
+            {colorIndex: 0, value: 7900, label: "Indiana"},
+            {colorIndex: 5, value: 7900, label: "South Dakota"},           
+            {colorIndex: 14, value: 7900, label: "Delaware"}, 
+            {colorIndex: 3, value: 7900, label: "Vermont"}, 
+       ];
       
-//         var subDataUSASMVA = [
-//             {colorIndex: 6, value: 47400, childData: subDataUSASMVA1, label: "SSN774~779"},
-//             {colorIndex: 2, value: 47400, childData: subDataUSASMVA2, label: "SSN780~785"},           
-//             {colorIndex: 10, value: 55300, childData: subDataUSASMVA3, label: "SSN786~792"}, 
-//         ];
+        var subDataUSASMVA = [
+            {colorIndex: 6, value: 47400, childData: subDataUSASMVA1, label: "SSN774~779"},
+            {colorIndex: 2, value: 47400, childData: subDataUSASMVA2, label: "SSN780~785"},           
+            {colorIndex: 10, value: 55300, childData: subDataUSASMVA3, label: "SSN786~792"}, 
+        ];
         
-//         var subDataUSASM = [
-//             {colorIndex: 6, value: 27414, childData: subDataUSASMSeawolf, label: "Seawolf Class"},
-//             {colorIndex: 2, value: 193956, childData: subDataUSASMLA, label: "Los Angeles Class"},           
-//             {colorIndex: 10, value: 150100, childData: subDataUSASMVA, label: "Virginia Class"}, 
-//         ];
+        var subDataUSASM = [
+            {colorIndex: 6, value: 27414, childData: subDataUSASMSeawolf, label: "Seawolf Class"},
+            {colorIndex: 2, value: 193956, childData: subDataUSASMLA, label: "Los Angeles Class"},           
+            {colorIndex: 10, value: 150100, childData: subDataUSASMVA, label: "Virginia Class"}, 
+        ];
       
-//         var subDataUSGMSOH1 = [
-//             {colorIndex: 6, value: 18750, label: "Ohio"},
-//             {colorIndex: 2, value: 18750, label: "Michigan"},           
-//             {colorIndex: 10, value: 18750, label: "Florida"}, 
-//             {colorIndex: 14, value: 18750, label: "Georgia"},
-//         ];
+        var subDataUSGMSOH1 = [
+            {colorIndex: 6, value: 18750, label: "Ohio"},
+            {colorIndex: 2, value: 18750, label: "Michigan"},           
+            {colorIndex: 10, value: 18750, label: "Florida"}, 
+            {colorIndex: 14, value: 18750, label: "Georgia"},
+        ];
       
-//         var subDataUSGMS = [
-//             {colorIndex: 3, value: 75000, childData: subDataUSGMSOH1, label: "Ohio Class"},
-//         ];
+        var subDataUSGMS = [
+            {colorIndex: 3, value: 75000, childData: subDataUSGMSOH1, label: "Ohio Class"},
+        ];
       
-//         var subDataUSGMSOH2 = [
-//             {colorIndex: 6, value: 18750, label: "Jackson"},
-//             {colorIndex: 2, value: 18750, label: "Alabama"},           
-//             {colorIndex: 10, value: 18750, label: "Alaska"}, 
-//             {colorIndex: 0, value: 18750, label: "Nevada"},
-//             {colorIndex: 5, value: 18750, label: "Tennessee"},
-//             {colorIndex: 14, value: 18750, label: "Pennsylvania"},
-//             {colorIndex: 8, value: 18750, label: "West Virginia"},
-//         ];
+        var subDataUSGMSOH2 = [
+            {colorIndex: 6, value: 18750, label: "Jackson"},
+            {colorIndex: 2, value: 18750, label: "Alabama"},           
+            {colorIndex: 10, value: 18750, label: "Alaska"}, 
+            {colorIndex: 0, value: 18750, label: "Nevada"},
+            {colorIndex: 5, value: 18750, label: "Tennessee"},
+            {colorIndex: 14, value: 18750, label: "Pennsylvania"},
+            {colorIndex: 8, value: 18750, label: "West Virginia"},
+        ];
       
-//         var subDataUSGMSOH3 = [
-//             {colorIndex: 6, value: 18750, label: "Kentucky"},
-//             {colorIndex: 2, value: 18750, label: "Maryland"},           
-//             {colorIndex: 10, value: 18750, label: "Nebraska"}, 
-//             {colorIndex: 0, value: 18750, label: "Rhode Island"},
-//             {colorIndex: 5, value: 18750, label: "Maine"},
-//             {colorIndex: 14, value: 18750, label: "Wyoming"},
-//             {colorIndex: 8, value: 18750, label: "Louisiana"},
-//         ];
+        var subDataUSGMSOH3 = [
+            {colorIndex: 6, value: 18750, label: "Kentucky"},
+            {colorIndex: 2, value: 18750, label: "Maryland"},           
+            {colorIndex: 10, value: 18750, label: "Nebraska"}, 
+            {colorIndex: 0, value: 18750, label: "Rhode Island"},
+            {colorIndex: 5, value: 18750, label: "Maine"},
+            {colorIndex: 14, value: 18750, label: "Wyoming"},
+            {colorIndex: 8, value: 18750, label: "Louisiana"},
+        ];
       
-//         var subDataUSBMS = [
-//             {colorIndex: 3, value: 131250, childData: subDataUSGMSOH2, label: "SSBN730~736"},
-//             {colorIndex: 10, value: 131250, childData: subDataUSGMSOH3, label: "SSBN737~743"},
-//         ];
+        var subDataUSBMS = [
+            {colorIndex: 3, value: 131250, childData: subDataUSGMSOH2, label: "SSBN730~736"},
+            {colorIndex: 10, value: 131250, childData: subDataUSGMSOH3, label: "SSBN737~743"},
+        ];
       
-//         var subDataUSSM = [
-//             {colorIndex: 2, value: 262500, childData: subDataUSBMS, label: "Ballistic Missile Submarine"},          
-//             {colorIndex: 10, value: 371400, childData: subDataUSASM, label: "Attack Submarine"}, 
-//             {colorIndex: 6, value: 75000, childData: subDataUSGMS, label: "Guided Missile Submarine"}
-//         ];
+        var subDataUSSM = [
+            {colorIndex: 2, value: 262500, childData: subDataUSBMS, label: "Ballistic Missile Submarine"},          
+            {colorIndex: 10, value: 371400, childData: subDataUSASM, label: "Attack Submarine"}, 
+            {colorIndex: 6, value: 75000, childData: subDataUSGMS, label: "Guided Missile Submarine"}
+        ];
       
 //         var subDataUSLCS1 = [
 //             {colorIndex: 0, value: 3104, label: "Independence"},
@@ -364,7 +364,7 @@
 //             {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
 //             {colorIndex: 10, value: 211200, childData: subDataUSCr, label: "Cruiser"},
 //             {colorIndex: 8, value: 624654, childData: subDataUSDe, label: "Destroyer"}, 
-            {colorIndex: 0, value: 371470, label: "Submarine"},
+            {colorIndex: 0, value: 371470, childData: subDataUSSM, label: "Submarine"},
             {colorIndex: 6, value: 65644, label: "Littoral combat ship"},           
             {colorIndex: 12, value: 930660, label: "Amphibious Warfare Ships"}, 
             {colorIndex: 14, value: 1100000, label: "Aircraft Carrier"},
