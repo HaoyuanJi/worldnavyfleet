@@ -26,11 +26,33 @@
         visualization.donut = {};
 
         var topLevelItem = {label: "Fleet"};
+      
+        var subDataUSAC = [
+            {colorIndex: 0, value: 1000000, label: "Nimitz Class"},
+            {colorIndex: 8, value: 100000, label: "Gerald R. Ford Class"}, 
+        ];
+      
+        var subDataUSBMS = [
+            {colorIndex: 0, value: 371470, label: "Georgia"},
+            {colorIndex: 2, value: 337500, label: "Florida"},
+            {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Michigan"},
+            {colorIndex: 12, value: 930660, label: "Ohio"},
+            {colorIndex: 6, value: 65644, label: "Lousiana"},
+            {colorIndex: 10, value: 211200, label: "Wyoming"},
+            {colorIndex: 8, value: 624654, label: "Maine"}, 
+            {colorIndex: 0, value: 371470, label: "Rhode Island"},
+            {colorIndex: 2, value: 337500, label: "Nebraska"},
+            {colorIndex: 14, value: 1100000, label: "Maryland"},
+            {colorIndex: 12, value: 930660, label: "Kentucky"},
+            {colorIndex: 6, value: 65644, label: "West Virginia"},
+            {colorIndex: 10, value: 211200, label: "Pennsylvania"},
+            {colorIndex: 8, value: 624654, label: "Tennessee"}, 
+        ];
 
         var subDataUS = [
             {colorIndex: 0, value: 371470, label: "Attack Submarine"},
-            {colorIndex: 2, value: 337500, label: "Ballistic Missile Submarine"},
-            {colorIndex: 14, value: 1100000, label: "Aircraft Carrier"},
+            {colorIndex: 2, value: 337500, childData: subDataUSBMS, label: "Ballistic Missile Submarine"},
+            {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
             {colorIndex: 12, value: 930660, label: "Amphibious Warfare Ships"},
             {colorIndex: 6, value: 65644, label: "Littoral combat ship"},
             {colorIndex: 10, value: 211200, label: "Cruiser"},
