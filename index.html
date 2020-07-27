@@ -49,13 +49,23 @@
             {colorIndex: 14, value: 6832, label: "Grant"}
         ];
 
-        var subData = [
-            {colorIndex: 8, value: 1420, label: "Pennsylvania"},
-            {colorIndex: 4, value: 1000, childData: subsubDataMD, label: "Maryland"},
-            {colorIndex: 5, value: 389, label: "New York"},
-            {colorIndex: 6, value: 1000, label: "Virginia"},
-            {colorIndex: 7, value: 500, childData: subsubDataWV, label: "West Virginia"}
-
+        var subDataUS = [
+            {colorIndex: 14, value: 1100000, label: "Aircraft Carrier"},
+            {colorIndex: 12, value: 930660, label: "Amphibious Warfare/Command/Landing Ships"},
+            {colorIndex: 10, value: 211200, label: "Cruiser"},
+            {colorIndex: 8, value: 624654, label: "Destroyer"},
+            {colorIndex: 6, value: 65644, label: "Littoral combat ship"},
+            {colorIndex: 4, value: 337500, label: "Ballistic/Guided Missile Submarine"},
+            {colorIndex: 2, value: 371470, label: "Attack Submarine"}
+        ];
+      
+        var subData610 = [        
+            {colorIndex: 7, value: 256440, childData: subsubDataMD, label: "India"},
+            {colorIndex: 8, value: 216494, label: "South Korea"},
+            {colorIndex: 9, value: 186876, label: "Italy"},
+            {colorIndex: 10, value: 171508, label: "Taiwan, China"},
+            {colorIndex: 11, value: 143764, label: "Spain"},
+            {colorIndex: 12, value: 141108, label: "Australia)"},
         ];
       
         var subData610 = [        
@@ -68,7 +78,7 @@
         ];
 
         var data = [
-            {colorIndex: 0, value: 3641128, childData: subData, label: "United States"},
+            {colorIndex: 0, value: 3641128, childData: subDataUS, label: "United States"},
             {colorIndex: 1, value: 1196650, childData: subData, label: "P.R.China"},
             {colorIndex: 2, value: 1063775, childData: subData, label: "Russia"},
             {colorIndex: 3, value: 481200, childData: subData, label: "Japan"},
