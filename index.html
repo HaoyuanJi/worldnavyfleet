@@ -27,32 +27,12 @@
 
         var topLevelItem = {label: "Fleet"};
     
-        var subDataUSNimitz1 = [
-            {colorIndex: 0, value: 100000, label: "Nimitz (CVN-68)"},
-            {colorIndex: 3, value: 100000, label: "Eisenhower (CVN-69)"}, 
-            {colorIndex: 6, value: 100000, label: "Carl Vinson (CVN-70)"}, 
-            {colorIndex: 9, value: 100000, label: "Theodore Roosevelt (CVN-71)"}, 
-            {colorIndex: 12, value: 100000, label: "Lincoln (CVN-72)"}, 
-        ];
-      
-         var subDataUSNimitz2 = [
-            {colorIndex: 10, value: 100000, label: "George Washington (CVN-73)"},
-            {colorIndex: 0, value: 100000, label: "Stennis (CVN-74)"},
-            {colorIndex: 3, value: 100000, label: "Truman (CVN-75)"}, 
-            {colorIndex: 6, value: 100000, label: "Reagan (CVN-76)"}, 
-            {colorIndex: 9, value: 100000, label: "Bush (CVN-77)"}, 
-        ];
-      
-//         var subDataUSNimitz = [
-//             {colorIndex: 0, value: 500000, childData: subDataUSNimitz1, label: "CVN-68~72"}, 
-//             {colorIndex: 8, value: 500000, childData: subDataUSNimitz2, label: "CVN-73~77"}, 
-//         ];
         var subDataUSNimitz = [
             {colorIndex: 0, value: 100000, label: "Nimitz"},
             {colorIndex: 3, value: 100000, label: "Eisenhower"}, 
-            {colorIndex: 6, value: 100000, label: "Carl Vinson"}, 
+            {colorIndex: 6, value: 100000, label: "Vinson"}, 
             {colorIndex: 9, value: 100000, label: "Roosevelt"}, 
-            {colorIndex: 12, value: 100000, label: "Lincoln)"},
+            {colorIndex: 12, value: 100000, label: "Lincoln"},
             {colorIndex: 10, value: 100000, label: "Washington"},
             {colorIndex: 0, value: 100000, label: "Stennis"},
             {colorIndex: 3, value: 100000, label: "Truman"}, 
@@ -69,26 +49,15 @@
             {colorIndex: 8, value: 100000, childData: subDataUSFord, label: "Gerald R. Ford Class"}, 
         ];
       
-        var subDataUSBMSOhio = [
-            {colorIndex: 0, value: 18750, label: "Georgia"},
-            {colorIndex: 2, value: 18750, label: "Florida"},
-            {colorIndex: 14, value: 18750, label: "Michigan"},
-            {colorIndex: 12, value: 18750, label: "Ohio"},
-            {colorIndex: 6, value: 18750, label: "Lousiana"},
-            {colorIndex: 10, value: 18750, label: "Wyoming"},
-            {colorIndex: 8, value: 18750, label: "Maine"}, 
-            {colorIndex: 0, value: 18750, label: "Rhode Island"},
-            {colorIndex: 2, value: 18750, label: "Nebraska"},
-            {colorIndex: 14, value: 18750, label: "Maryland"},
-            {colorIndex: 12, value: 18750, label: "Kentucky"},
-            {colorIndex: 6, value: 18750, label: "West Virginia"},
-            {colorIndex: 10, value: 18750, label: "Pennsylvania"},
-            {colorIndex: 8, value: 18750, label: "Tennessee"}, 
+        var subDataUSASMSeawolf = [
+            {colorIndex: 0, value: 9138, label: "Seawolf"},
+            {colorIndex: 6, value: 9138, label: "Connecticut"},
+            {colorIndex: 14, value: 9138, label: "Jimmy Carter"},
         ];
         
         var subDataUSASM = [
-            {colorIndex: 2, value: 193956, label: "Los Angeles Class"},
-            {colorIndex: 6, value: 27414, label: "Seawolf Class"},
+            {colorIndex: 6, value: 27414, childData: subDataUSASMSeawolf, label: "Seawolf Class"},
+            {colorIndex: 2, value: 193956, label: "Los Angeles Class"},           
             {colorIndex: 10, value: 150100, label: "Virginia Class"}, 
         ];
       
