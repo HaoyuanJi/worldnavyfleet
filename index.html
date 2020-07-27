@@ -2,30 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>World Navy Fleets Displacement Chart</title>
+  <title>D3v4 Multi-level Drill-down Donut Chart</title>
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
-  <style>
-    h1 {text-align: center;}
-    h3 {text-align: center;}
-    p {text-align: center;}
-    div {text-align: center;}
-  </style>
 </head>
 <body>
-  <h1>World Navy Fleets Displacement<sup>*<sup></h1>
-  <h3>(As of 2020.08)</h3>
-  <h3>unit: metric tons</h3>
   <div id="graph-container"></div>
   
   <script type="text/javascript">
   
-    var canvas = {};
+    var defVis = {};
 
     (function (visualization){
         visualization.donut = {};
 
-        var topLevelItem = {label: "Fleet"};
+        var topLevelItem = {label: "Source"};
 
         var subsubsubDataBalt = [
             {colorIndex: 0, value: 50, label: "Urban"},
@@ -59,10 +50,9 @@
         ];
 
         var data = [
-            {colorIndex: 0, value: 3641128, childData: subData, label: "United States"},
-            {colorIndex: 1, value: 1196650, childData: subData, label: "P.R.China"},
-            {colorIndex: 2, value: 1063775, childData: subData, label: "Russia"},
-            {colorIndex: 3, value: 481200, childData: subData, label: "Japan"},
+            {colorIndex: 0, value: 43, childData: subData, label: "Nitrogen"},
+            {colorIndex: 1, value: 31, childData: subData, label: "Phosphorous"},
+            {colorIndex: 2, value: 16, childData: subData, label: "Sediment"}
         ];
 
         var dataOriginal = data.slice(0);
@@ -395,12 +385,9 @@
         }
 
         function updatePieLabels(){
-            if (getCurrentItem().label == "Fleet") {
-              chartCenterLabel.text(getCurrentItem().label);
-            } else {
-              chartCenterLabel.text(getCurrentItem().label + " (" + getCurrentItem().value.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",") + ")");
-            }
-          
+
+            chartCenterLabel.text(getCurrentItem().label);
+
             chartLabelsGroup.html("");
 
             var sliceLabels = chartLabelsGroup.selectAll("text").data(pie(path.data()));
@@ -558,9 +545,9 @@
         };
 
         return visualization;
-    }(canvas));
+    }(defVis));
 
-    canvas.donut.show();
+    defVis.donut.show();
   </script>
 </body>
 </html>
