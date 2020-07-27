@@ -398,7 +398,11 @@
 
         function updatePieLabels(){
 
-            chartCenterLabel.text(getCurrentItem().label);
+            if (getCurrentItem().label == "Fleet") {
+              chartCenterLabel.text(getCurrentItem().label);
+            } else {
+              chartCenterLabel.text(getCurrentItem().label + " (" + getCurrentItem().value.toString() + ")");
+            }
 
             chartLabelsGroup.html("");
 
