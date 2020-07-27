@@ -366,14 +366,14 @@
 //             {colorIndex: 8, value: 624654, childData: subDataUSDe, label: "Destroyer"}, 
 //         ];
       
-//         var subData610 = [        
-//             {colorIndex: 7, value: 256440, label: "India"},
-//             {colorIndex: 8, value: 216494, label: "South Korea"},
-//             {colorIndex: 9, value: 186876, label: "Italy"},
-//             {colorIndex: 10, value: 171508, label: "Taiwan, China"},
-//             {colorIndex: 11, value: 143764, label: "Spain"},
-//             {colorIndex: 12, value: 141108, label: "Australia)"},
-//         ];
+        var subData610 = [        
+            {colorIndex: 7, value: 256440, label: "India"},
+            {colorIndex: 8, value: 216494, label: "South Korea"},
+            {colorIndex: 9, value: 186876, label: "Italy"},
+            {colorIndex: 10, value: 171508, label: "Taiwan, China"},
+            {colorIndex: 11, value: 143764, label: "Spain"},
+            {colorIndex: 12, value: 141108, label: "Australia)"},
+        ];
 
         var data = [
             {colorIndex: 0, value: 3641128, label: "U.S."},
@@ -382,5 +382,5 @@
             {colorIndex: 5, value: 481200, label: "Japan"},
             {colorIndex: 6, value: 324880, label: "UK"},
             {colorIndex: 7, value: 296770, label: "France"}, 
-            {colorIndex: 8, value: 1116190, label: "Others (#7-#12)"},
+            {colorIndex: 8, value: 1116190, childData: subData610, label: "Others (#7-#12)"},
         ];
