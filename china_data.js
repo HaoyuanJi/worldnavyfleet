@@ -63,11 +63,37 @@
             {colorIndex: 9, value: 20265, childData: subDataCNFrigate541_d, label: "Batch IV"}, 
         ];
 
+        var subDataCNFrigate54 = [
+            {colorIndex: 0, value: 3900, label: "Ma'anshan(马鞍山)"},
+            {colorIndex: 3, value: 3900, label: "Wenzhou(温州)"}, 
+        ];
+
+        var subDataCNFrigate533 = [
+            {colorIndex: 0, value: 2400, label: "Jiaxing(嘉兴)"},
+            {colorIndex: 13, value: 2400, label: "Sanming(三明)"}, 
+            {colorIndex: 3, value: 2400, label: "Yichang(宜昌)"},
+            {colorIndex: 4, value: 2400, label: "Huludao(葫芦岛)"}, 
+            {colorIndex: 5, value: 2400, label: "Huaihua(怀化)"}, 
+            {colorIndex: 6, value: 2400, label: "Xiangyang(襄阳)"}, 
+            {colorIndex: 7, value: 2400, label: "Luoyang(洛阳)"},
+            {colorIndex: 8, value: 2400, label: "Mianyang(绵阳)"},
+        ];
+
+        var subDataCNFrigate531 = [
+            {colorIndex: 0, value: 2000, label: "Dandong(丹东)"},
+            {colorIndex: 13, value: 2000, label: "Shaoguan(韶关)"}, 
+            {colorIndex: 3, value: 2000, label: "Zhaotong(昭通)"},
+            {colorIndex: 4, value: 2000, label: "Beihai(北海)"}, 
+            {colorIndex: 5, value: 2000, label: "Foshan(佛山)"}, 
+            {colorIndex: 6, value: 2000, label: "Jiangmen(江门)"}, 
+            {colorIndex: 7, value: 2000, label: "Zhaoqing(肇庆)"},
+        ];
+
         var subDataCNFrigate = [
             {colorIndex: 0, value: 121590, childData: subDataCNFrigate541, label: "Type 054A"},
-            {colorIndex: 4, value: 7800, label: "Type 054"}, 
-            {colorIndex: 8, value: 19200, label: "Type 053H3"}, 
-            {colorIndex: 12, value: 18000, label: "Type 053H1"}, 
+            {colorIndex: 4, value: 7800, childData: subDataCNFrigate54, label: "Type 054"}, 
+            {colorIndex: 8, value: 19200, childData: subDataCNFrigate533, label: "Type 053H3"}, 
+            {colorIndex: 12, value: 14000, childData: subDataCNFrigate531, label: "Type 053H1/G"}, 
         ];
 
        var subDataChina = [
@@ -75,6 +101,6 @@
             {colorIndex: 6, value: 85500, label: "Corvette(护卫舰)"},           
             {colorIndex: 12, value: 294700, label: "Amphibious Warfare Ships(两栖作战舰)"}, 
             {colorIndex: 14, value: 137500, childData: subDataCNAC, label: "Aircraft Carrier(航空母舰)"},
-            {colorIndex: 10, value: 166590, childData: subDataCNFrigate, label: "Frigate(驱护舰)"},
+            {colorIndex: 10, value: 162590, childData: subDataCNFrigate, label: "Frigate(驱护舰)"},
             {colorIndex: 8, value: 229320, label: "Destroyer(驱逐舰)"}, 
         ];
