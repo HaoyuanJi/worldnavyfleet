@@ -37,16 +37,16 @@
         ];
 
         var subDataCNFrigate541_c = [
-            {colorIndex: 0, value: 67500, label: "Yulin(大庆)"},
-            {colorIndex: 13, value: 70000, label: "Yuncheng(黄冈)"}, 
-            {colorIndex: 3, value: 67500, label: "Yiyang(扬州)"},
-            {colorIndex: 4, value: 70000, label: "Changzhou(邯郸)"}, 
-            {colorIndex: 5, value: 70000, label: "Yantai(湘潭)"}, 
-            {colorIndex: 6, value: 70000, label: "yancheng(荆州)"}, 
-            {colorIndex: 7, value: 70000, label: "Hengshui(滨州)"},
-            {colorIndex: 8, value: 70000, label: "Liuzhou(许昌)"},
-            {colorIndex: 9, value: 70000, label: "Linyi(芜湖)"},
-            {colorIndex: 10, value: 70000, label: "Weifang(日照)"},
+            {colorIndex: 0, value: 67500, label: "Daqing(大庆)"},
+            {colorIndex: 13, value: 70000, label: "Huanggang(黄冈)"}, 
+            {colorIndex: 3, value: 67500, label: "Yangzhou(扬州)"},
+            {colorIndex: 4, value: 70000, label: "Handan(邯郸)"}, 
+            {colorIndex: 5, value: 70000, label: "Xiangtan(湘潭)"}, 
+            {colorIndex: 6, value: 70000, label: "Jingzhou(荆州)"}, 
+            {colorIndex: 7, value: 70000, label: "Binzhou(滨州)"},
+            {colorIndex: 8, value: 70000, label: "Xuchang(许昌)"},
+            {colorIndex: 9, value: 70000, label: "Wuhu(芜湖)"},
+            {colorIndex: 10, value: 70000, label: "Rizhao(日照)"},
         ];
 
         var subDataCNFrigate541_d = [
@@ -71,10 +71,10 @@
         ];
 
        var subDataChina = [
-            {colorIndex: 0, value: 283040, label: "Submarine(潜艇)"},
-            {colorIndex: 6, value: 85500, label: "Corvette(护卫舰)"},           
-            {colorIndex: 12, value: 294700, label: "Amphibious Warfare Ships(两栖作战舰)"}, 
-            {colorIndex: 14, value: 137500, childData: subDataCNAC, label: "Aircraft Carrier(航空母舰)"},
-            {colorIndex: 10, value: 166590, childData: subDataCNFrigate, label: "Frigate(驱护舰)"},
-            {colorIndex: 8, value: 229320, label: "Destroyer(驱逐舰)"}, 
+            {colorIndex: 0, value: 283040, label: "Submarine"},
+            {colorIndex: 6, value: 85500, label: "Corvette"},           
+            {colorIndex: 12, value: 294700, label: "Amphibious Warfare Ships"}, 
+            {colorIndex: 14, value: 137500, childData: subDataCNAC, label: "Aircraft Carrier"},
+            {colorIndex: 10, value: 166590, childData: subDataCNFrigate, label: "Frigate"},
+            {colorIndex: 8, value: 229320, label: "Destroyer"}, 
         ];
