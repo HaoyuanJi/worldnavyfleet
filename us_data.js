@@ -440,7 +440,7 @@
 
         var data = [
             {colorIndex: 0, value: 3641128, childData: subDataUS, label: "U.S."},
-            {colorIndex: 2, value: 1196650, label: "P.R.China"},
+            {colorIndex: 2, value: 1196650, childData: subDataChina, label: "P.R.China"},
             {colorIndex: 4, value: 1063775, label: "Russia"},
             {colorIndex: 5, value: 481200, label: "Japan"},
             {colorIndex: 6, value: 324880, label: "UK"},
