@@ -1,24 +1,24 @@
-//        var subDataUSNimitz = [
-//             {colorIndex: 0, value: 100000, label: "Nimitz"},
-//             {colorIndex: 3, value: 100000, label: "Eisenhower"}, 
-//             {colorIndex: 6, value: 100000, label: "Vinson"}, 
-//             {colorIndex: 9, value: 100000, label: "Roosevelt"}, 
-//             {colorIndex: 12, value: 100000, label: "Lincoln"},
-//             {colorIndex: 10, value: 100000, label: "Washington"},
-//             {colorIndex: 0, value: 100000, label: "Stennis"},
-//             {colorIndex: 3, value: 100000, label: "Truman"}, 
-//             {colorIndex: 6, value: 100000, label: "Reagan"}, 
-//             {colorIndex: 9, value: 100000, label: "Bush"}, 
-//         ];
+       var subDataUSNimitz = [
+            {colorIndex: 0, value: 100000, label: "Nimitz"},
+            {colorIndex: 3, value: 100000, label: "Eisenhower"}, 
+            {colorIndex: 6, value: 100000, label: "Vinson"}, 
+            {colorIndex: 9, value: 100000, label: "Roosevelt"}, 
+            {colorIndex: 12, value: 100000, label: "Lincoln"},
+            {colorIndex: 10, value: 100000, label: "Washington"},
+            {colorIndex: 0, value: 100000, label: "Stennis"},
+            {colorIndex: 3, value: 100000, label: "Truman"}, 
+            {colorIndex: 6, value: 100000, label: "Reagan"}, 
+            {colorIndex: 9, value: 100000, label: "Bush"}, 
+        ];
       
-//         var subDataUSFord = [
-//             {colorIndex: 0, value: 1000000, label: "Gerald R. Ford"},
-//         ];
+        var subDataUSFord = [
+            {colorIndex: 0, value: 1000000, label: "Gerald R. Ford"},
+        ];
       
-//         var subDataUSAC = [
-//             {colorIndex: 0, value: 1000000, childData: subDataUSNimitz, label: "Nimitz Class"},
-//             {colorIndex: 8, value: 100000, childData: subDataUSFord, label: "Gerald R. Ford Class"}, 
-//         ];
+        var subDataUSAC = [
+            {colorIndex: 0, value: 1000000, childData: subDataUSNimitz, label: "Nimitz Class"},
+            {colorIndex: 8, value: 100000, childData: subDataUSFord, label: "Gerald R. Ford Class"}, 
+        ];
       
         var subDataUSASMSeawolf = [
             {colorIndex: 0, value: 9138, label: "Seawolf"},
@@ -159,97 +159,97 @@
             {colorIndex: 6, value: 75000, childData: subDataUSGMS, label: "Guided Missile Submarine"}
         ];
       
-//         var subDataUSLCS1 = [
-//             {colorIndex: 0, value: 3104, label: "Independence"},
-//             {colorIndex: 3, value: 3104, label: "Coronado"}, 
-//             {colorIndex: 6, value: 3104, label: "Jackson"}, 
-//             {colorIndex: 9, value: 3104, label: "Montgomery"}, 
-//             {colorIndex: 12, value: 3104, label: "Gabrielle Giffords"},
-//             {colorIndex: 10, value: 3104, label: "Omaha"},
-//             {colorIndex: 0, value: 3104, label: "Manchester"},
-//             {colorIndex: 3, value: 3104, label: "Tulsa"}, 
-//             {colorIndex: 6, value: 3104, label: "Charleston"}, 
-//             {colorIndex: 9, value: 3104, label: "Cincinnati"}, 
-//             {colorIndex: 2, value: 3104, label: "Kansas City"}, 
-//         ];
+        var subDataUSLCS1 = [
+            {colorIndex: 0, value: 3104, label: "Independence"},
+            {colorIndex: 3, value: 3104, label: "Coronado"}, 
+            {colorIndex: 6, value: 3104, label: "Jackson"}, 
+            {colorIndex: 9, value: 3104, label: "Montgomery"}, 
+            {colorIndex: 12, value: 3104, label: "Gabrielle Giffords"},
+            {colorIndex: 10, value: 3104, label: "Omaha"},
+            {colorIndex: 0, value: 3104, label: "Manchester"},
+            {colorIndex: 3, value: 3104, label: "Tulsa"}, 
+            {colorIndex: 6, value: 3104, label: "Charleston"}, 
+            {colorIndex: 9, value: 3104, label: "Cincinnati"}, 
+            {colorIndex: 2, value: 3104, label: "Kansas City"}, 
+        ];
       
-//         var subDataUSLCS2 = [
-//             {colorIndex: 0, value: 3500, label: "Freedom"},
-//             {colorIndex: 3, value: 3500, label: "Fort Worth"}, 
-//             {colorIndex: 6, value: 3500, label: "Milwaukee"}, 
-//             {colorIndex: 9, value: 3500, label: "Detroit"}, 
-//             {colorIndex: 12, value: 3500, label: "Little Rock"},
-//             {colorIndex: 10, value: 3500, label: "Sioux City"},
-//             {colorIndex: 0, value: 3500, label: "Wichita"},
-//             {colorIndex: 3, value: 3500, label: "Billings"}, 
-//             {colorIndex: 6, value: 3500, label: "Indianapolis"}, 
-//         ];
+        var subDataUSLCS2 = [
+            {colorIndex: 0, value: 3500, label: "Freedom"},
+            {colorIndex: 3, value: 3500, label: "Fort Worth"}, 
+            {colorIndex: 6, value: 3500, label: "Milwaukee"}, 
+            {colorIndex: 9, value: 3500, label: "Detroit"}, 
+            {colorIndex: 12, value: 3500, label: "Little Rock"},
+            {colorIndex: 10, value: 3500, label: "Sioux City"},
+            {colorIndex: 0, value: 3500, label: "Wichita"},
+            {colorIndex: 3, value: 3500, label: "Billings"}, 
+            {colorIndex: 6, value: 3500, label: "Indianapolis"}, 
+        ];
+
+        var subDataUSLCS = [
+            {colorIndex: 2, value: 34144, childData: subDataUSLCS1, label: "Independence Class"},          
+            {colorIndex: 6, value: 31500, childData: subDataUSLCS2, label: "Freedom Class"}
+        ];
       
-//         var subDataUSWasp = [
-//             {colorIndex: 0, value: 41150, label: "Wasp"},
-//             {colorIndex: 3, value: 41150, label: "Essex"}, 
-//             {colorIndex: 6, value: 41150, label: "Kearsarge"}, 
-//             {colorIndex: 9, value: 41150, label: "Boxer"}, 
-//             {colorIndex: 12, value: 41150, label: "Bataan"},
-//             {colorIndex: 10, value: 41150, label: "Bonhomme Richard"},
-//             {colorIndex: 0, value: 41150, label: "Iwo Jima"},
-//             {colorIndex: 6, value: 41150, label: "Makin Island"}, 
-//         ];
+        var subDataUSWasp = [
+            {colorIndex: 0, value: 41150, label: "Wasp"},
+            {colorIndex: 3, value: 41150, label: "Essex"}, 
+            {colorIndex: 6, value: 41150, label: "Kearsarge"}, 
+            {colorIndex: 9, value: 41150, label: "Boxer"}, 
+            {colorIndex: 12, value: 41150, label: "Bataan"},
+            {colorIndex: 10, value: 41150, label: "Bonhomme Richard"},
+            {colorIndex: 0, value: 41150, label: "Iwo Jima"},
+            {colorIndex: 6, value: 41150, label: "Makin Island"}, 
+        ];
       
-//         var subDataUSAm = [
-//             {colorIndex: 0, value: 45693, label: "America"},
-//             {colorIndex: 10, value: 45693, label: "Tripoli"}, 
-//         ];
+        var subDataUSAm = [
+            {colorIndex: 0, value: 45693, label: "America"},
+            {colorIndex: 10, value: 45693, label: "Tripoli"}, 
+        ];
       
-//         var subDataUSSa = [
-//             {colorIndex: 0, value: 25300, label: "San Antonio"},
-//             {colorIndex: 3, value: 25300, label: "New Orleans"}, 
-//             {colorIndex: 6, value: 25300, label: "Mesa Verde"}, 
-//             {colorIndex: 9, value: 25300, label: "New York"}, 
-//             {colorIndex: 12, value: 25300, label: "San Diego"},
-//             {colorIndex: 10, value: 25300, label: "Anchorage"},
-//             {colorIndex: 0, value: 25300, label: "Arlington"},
-//             {colorIndex: 1, value: 25300, label: "Somerset"}, 
-//             {colorIndex: 8, value: 25300, label: "Murtha"},
-//             {colorIndex: 2, value: 25300, label: "Portland"},
-//         ];
+        var subDataUSSa = [
+            {colorIndex: 0, value: 25300, label: "San Antonio"},
+            {colorIndex: 3, value: 25300, label: "New Orleans"}, 
+            {colorIndex: 6, value: 25300, label: "Mesa Verde"}, 
+            {colorIndex: 9, value: 25300, label: "New York"}, 
+            {colorIndex: 12, value: 25300, label: "San Diego"},
+            {colorIndex: 10, value: 25300, label: "Anchorage"},
+            {colorIndex: 0, value: 25300, label: "Arlington"},
+            {colorIndex: 1, value: 25300, label: "Somerset"}, 
+            {colorIndex: 8, value: 25300, label: "Murtha"},
+            {colorIndex: 2, value: 25300, label: "Portland"},
+        ];
       
-//         var subDataUSWi = [
-//             {colorIndex: 0, value: 16100, label: "Whidbey Island"},
-//             {colorIndex: 3, value: 16100, label: "Germantown"}, 
-//             {colorIndex: 6, value: 16100, label: "Fort McHenry"}, 
-//             {colorIndex: 9, value: 16100, label: "Gunston Hall"}, 
-//             {colorIndex: 12, value: 16100, label: "Comstock"},
-//             {colorIndex: 10, value: 16100, label: "Tortuga"},
-//             {colorIndex: 0, value: 16100, label: "Rushmore"},
-//             {colorIndex: 1, value: 16100, label: "Ashland"}, 
-//         ];
+        var subDataUSWi = [
+            {colorIndex: 0, value: 16100, label: "Whidbey Island"},
+            {colorIndex: 3, value: 16100, label: "Germantown"}, 
+            {colorIndex: 6, value: 16100, label: "Fort McHenry"}, 
+            {colorIndex: 9, value: 16100, label: "Gunston Hall"}, 
+            {colorIndex: 12, value: 16100, label: "Comstock"},
+            {colorIndex: 10, value: 16100, label: "Tortuga"},
+            {colorIndex: 0, value: 16100, label: "Rushmore"},
+            {colorIndex: 1, value: 16100, label: "Ashland"}, 
+        ];
       
-//          var subDataUSHf = [
-//             {colorIndex: 0, value: 15939, label: "Harpers Ferry"},
-//             {colorIndex: 3, value: 15939, label: "Carter Hall"}, 
-//             {colorIndex: 6, value: 15939, label: "Oak Hill"}, 
-//             {colorIndex: 9, value: 15939, label: "Pearl Harbor"}, 
-//         ];
+         var subDataUSHf = [
+            {colorIndex: 0, value: 15939, label: "Harpers Ferry"},
+            {colorIndex: 3, value: 15939, label: "Carter Hall"}, 
+            {colorIndex: 6, value: 15939, label: "Oak Hill"}, 
+            {colorIndex: 9, value: 15939, label: "Pearl Harbor"}, 
+        ];
       
-//         var subDataUSBr = [
-//             {colorIndex: 0, value: 19609, label: "Blue Ridge"},
-//             {colorIndex: 9, value: 19609, label: "Mount Whitney"},  
-//         ];
+        var subDataUSBr = [
+            {colorIndex: 0, value: 19609, label: "Blue Ridge"},
+            {colorIndex: 9, value: 19609, label: "Mount Whitney"},  
+        ];
       
-//         var subDataUSAWS = [
-//             {colorIndex: 2, value: 329200, childData: subDataUSWasp, label: "Wasp Class"},                    
-//             {colorIndex: 9, value: 278300, childData: subDataUSSa, label: "San Antonio Class"}, 
-//             {colorIndex: 6, value: 91386, childData: subDataUSAm, label: "America Class"}, 
-//             {colorIndex: 12, value: 128800, childData: subDataUSWi, label: "Whidbey Island Class"},
-//             {colorIndex: 10, value: 63756, childData: subDataUSHf, label: "Harpers Ferry Class"},
-//             {colorIndex: 8, value: 39218, childData: subDataUSBr, label: "Blue Ridge Class"},
-//         ];
-      
-//         var subDataUSLCS = [
-//             {colorIndex: 2, value: 34144, childData: subDataUSLCS1, label: "Independence Class"},          
-//             {colorIndex: 6, value: 31500, childData: subDataUSLCS2, label: "Freedom Class"}
-//         ];
+        var subDataUSAWS = [
+            {colorIndex: 2, value: 329200, childData: subDataUSWasp, label: "Wasp Class"},                    
+            {colorIndex: 9, value: 278300, childData: subDataUSSa, label: "San Antonio Class"}, 
+            {colorIndex: 6, value: 91386, childData: subDataUSAm, label: "America Class"}, 
+            {colorIndex: 12, value: 128800, childData: subDataUSWi, label: "Whidbey Island Class"},
+            {colorIndex: 10, value: 63756, childData: subDataUSHf, label: "Harpers Ferry Class"},
+            {colorIndex: 8, value: 39218, childData: subDataUSBr, label: "Blue Ridge Class"},
+        ];
       
 //         var subDataUSCrT1 = [
 //             {colorIndex: 2, value: 9600, label: "Bunker Hill"},                    
@@ -369,9 +369,9 @@
 //             {colorIndex: 10, value: 211200, childData: subDataUSCr, label: "Cruiser"},
 //             {colorIndex: 8, value: 624654, childData: subDataUSDe, label: "Destroyer"}, 
             {colorIndex: 0, value: 371470, childData: subDataUSSM, label: "Submarine"},
-            {colorIndex: 6, value: 65644, label: "Littoral combat ship"},           
-            {colorIndex: 12, value: 930660, label: "Amphibious Warfare Ships"}, 
-            {colorIndex: 14, value: 1100000, label: "Aircraft Carrier"},
+            {colorIndex: 6, value: 65644, childData: subDataUSLCS, label: "Littoral combat ship"},           
+            {colorIndex: 12, value: 930660, childData: subDataUSAWS, label: "Amphibious Warfare Ships"}, 
+            {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
             {colorIndex: 10, value: 211200, label: "Cruiser"},
             {colorIndex: 8, value: 624654, label: "Destroyer"}, 
         ];
