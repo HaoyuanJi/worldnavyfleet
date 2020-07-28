@@ -155,10 +155,10 @@
 
                     var arcSelect = d3.arc()
                         .startAngle(function(s){
-                            return 0;
+                            return 0.25 * Math.PI;
                         })
                         .endAngle(function(s){
-                            return 2 * Math.PI;
+                            return 2.25 * Math.PI;
                         })
                         .innerRadius(function(i){
                             return radius * 1.25;//radius;
