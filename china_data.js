@@ -174,9 +174,51 @@
             {colorIndex: 5, value: 9600, childData: subDataCNDe052, label: "Type 052"},
         ];
 
+        var subDataCN0561 = [
+            {colorIndex: 0, value: 1500, label: "Bengbu(蚌埠)"},
+            {colorIndex: 3, value: 1500, label: "Huizhou(惠州)"}, 
+            {colorIndex: 6, value: 1500, label: "Meizhou(梅州)"}, 
+            {colorIndex: 9, value: 1500, label: "Datong(大同)"},
+            {colorIndex: 12, value: 1500, label: "Shangrao(上饶)"}, 
+            {colorIndex: 14, value: 1500, label: "Qinzhou(钦州)"}, 
+            {colorIndex: 5, value: 1500, label: "Baise(百色)"},
+            {colorIndex: 8, value: 1500, label: "Yingkou(营口)"},                 
+        ];
+
+        var subDataCN0562 = [
+            {colorIndex: 0, value: 1500, label: "Kunming(揭阳)"},
+            {colorIndex: 3, value: 1500, label: "Changsha(吉安)"}, 
+            {colorIndex: 6, value: 1500, label: "Hefei(清远)"}, 
+            {colorIndex: 9, value: 1500, label: "Yinchuang(泉州)"},
+            {colorIndex: 12, value: 1500, label: "Xining(泸州)"}, 
+            {colorIndex: 14, value: 1500, label: "Xiamen(威海)"}, 
+            {colorIndex: 5, value: 1500, label: "Urumqi(抚顺)"},
+            {colorIndex: 8, value: 1500, label: "Guiyang(潮州)"},                 
+        ];
+
+        var subDataCN0563 = [
+            {colorIndex: 0, value: 1500, label: "Kunming(信阳)"},
+            {colorIndex: 3, value: 1500, label: "Changsha(宿州)"}, 
+            {colorIndex: 6, value: 1500, label: "Hefei(菏泽)"}, 
+            {colorIndex: 9, value: 1500, label: "Yinchuang(淮安)"},
+            {colorIndex: 12, value: 1500, label: "Xining(保定)"}, 
+            {colorIndex: 14, value: 1500, label: "Xiamen(宁德)"},               
+        ];
+
+        var subDataCN056 = [
+            {colorIndex: 0, value: 12000, childData: subDataCN0561, label: "Batch I"},
+            {colorIndex: 5, value: 12000, childData: subDataCN0562, label: "Batch II"}, 
+            {colorIndex: 10, value: 9000, childData: subDataCN0563, label: "Batch III"}, 
+        ];
+
+        var subDataCNCV = [
+            {colorIndex: 0, value: 33000, childData: subDataCN056, label: "Type 056"},             
+            {colorIndex: 6, value: 52500, childData: subDataCN056_a, label: "Type 056A"},
+        ];
+
        var subDataChina = [
             {colorIndex: 0, value: 283040, label: "Submarine(潜艇)"},
-            {colorIndex: 6, value: 85500, label: "Corvette(护卫舰)"},           
+            {colorIndex: 6, value: 85500, childData: subDataCNCV, label: "Corvette(护卫舰)"},           
             {colorIndex: 12, value: 294700, label: "Amphibious Warfare Ships(两栖作战舰)"}, 
             {colorIndex: 14, value: 137500, childData: subDataCNAC, label: "Aircraft Carrier(航空母舰)"},
             {colorIndex: 10, value: 162590, childData: subDataCNFrigate, label: "Frigate(驱护舰)"},
