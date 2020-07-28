@@ -65,16 +65,16 @@
 
         var subDataCNFrigate = [
             {colorIndex: 0, value: 121590, childData: subDataCNFrigate541, label: "Type 054A"},
-            {colorIndex: 4, value: 7800, childData: subDataCNFrigate54, label: "Type 054"}, 
-            {colorIndex: 8, value: 19200, childData: subDataCNFrigate533, label: "Type 053H3"}, 
-            {colorIndex: 12, value: 18000, childData: subDataCNFrigate531, label: "Type 053H1"}, 
+            {colorIndex: 4, value: 7800, label: "Type 054"}, 
+            {colorIndex: 8, value: 19200, label: "Type 053H3"}, 
+            {colorIndex: 12, value: 18000, label: "Type 053H1"}, 
         ];
 
        var subDataChina = [
-            {colorIndex: 0, value: 283040, label: "Submarine"},
-            {colorIndex: 6, value: 85500, label: "Corvette"},           
-            {colorIndex: 12, value: 294700, label: "Amphibious Warfare Ships"}, 
-            {colorIndex: 14, value: 137500, childData: subDataCNAC, label: "Aircraft Carrier"},
-            {colorIndex: 10, value: 166590, childData: subDataCNFrigate, label: "Frigate"},
-            {colorIndex: 8, value: 229320, label: "Destroyer"}, 
+            {colorIndex: 0, value: 283040, label: "Submarine(潜艇)"},
+            {colorIndex: 6, value: 85500, label: "Corvette(护卫舰)"},           
+            {colorIndex: 12, value: 294700, label: "Amphibious Warfare Ships(两栖作战舰)"}, 
+            {colorIndex: 14, value: 137500, childData: subDataCNAC, label: "Aircraft Carrier(航空母舰)"},
+            {colorIndex: 10, value: 166590, childData: subDataCNFrigate, label: "Frigate(驱护舰)"},
+            {colorIndex: 8, value: 229320, label: "Destroyer(驱逐舰)"}, 
         ];
