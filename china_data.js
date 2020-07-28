@@ -211,6 +211,64 @@
             {colorIndex: 10, value: 9000, childData: subDataCN0563, label: "Batch III"}, 
         ];
 
+        var subDataCN056_a1 = [
+            {colorIndex: 0, value: 1500, label: "Kunming(三门峡)"},
+            {colorIndex: 3, value: 1500, label: "Changsha(株洲)"}, 
+            {colorIndex: 6, value: 1500, label: "Hefei(黄石)"}, 
+            {colorIndex: 9, value: 1500, label: "Yinchuang(宿迁)"},
+            {colorIndex: 12, value: 1500, label: "Xining(秦皇岛)"}, 
+            {colorIndex: 14, value: 1500, label: "Xiamen(荆门)"},  
+            {colorIndex: 5, value: 1500, label: "Xiamen(铜仁)"},
+        ];
+
+        var subDataCN056_a2 = [
+            {colorIndex: 0, value: 1500, label: "Kunming(曲靖)"},
+            {colorIndex: 3, value: 1500, label: "Changsha(鄂州)"}, 
+            {colorIndex: 6, value: 1500, label: "Hefei(六盘水)"}, 
+            {colorIndex: 9, value: 1500, label: "Yinchuang(义乌)"},
+            {colorIndex: 12, value: 1500, label: "Xining(汉中)"}, 
+            {colorIndex: 14, value: 1500, label: "Xiamen(宣城)"},     
+            {colorIndex: 5, value: 1500, label: "Xiamen(宜春)"},    
+        ];
+
+        var subDataCN056_a3 = [
+            {colorIndex: 0, value: 1500, label: "Kunming(乌海)"},
+            {colorIndex: 3, value: 1500, label: "Changsha(张掖)"}, 
+            {colorIndex: 6, value: 1500, label: "Hefei(遂宁)"}, 
+            {colorIndex: 9, value: 1500, label: "Yinchuang(广元)"},
+            {colorIndex: 12, value: 1500, label: "Xining(德阳)"}, 
+            {colorIndex: 14, value: 1500, label: "Xiamen(南充)"}, 
+            {colorIndex: 5, value: 1500, label: "Xiamen(宿州)"},    
+        ];
+
+        var subDataCN056_a4 = [
+            {colorIndex: 0, value: 1500, label: "Kunming(聊城)"},
+            {colorIndex: 3, value: 1500, label: "Changsha(巴中)"}, 
+            {colorIndex: 6, value: 1500, label: "Hefei(六安)"}, 
+            {colorIndex: 9, value: 1500, label: "Yinchuang(定州)"},
+            {colorIndex: 12, value: 1500, label: "Xining(孝感)"}, 
+            {colorIndex: 14, value: 1500, label: "Xiamen(广安)"},    
+            {colorIndex: 5, value: 1500, label: "Xiamen(梧州)"},    
+        ];
+
+        var subDataCN056_a5 = [
+            {colorIndex: 0, value: 1500, label: "Kunming(攀枝花)"},
+            {colorIndex: 3, value: 1500, label: "Changsha(景德镇)"}, 
+            {colorIndex: 6, value: 1500, label: "Hefei(文山)"}, 
+            {colorIndex: 9, value: 1500, label: "Yinchuang(张家口)"},
+            {colorIndex: 12, value: 1500, label: "Xining(赣州)"}, 
+            {colorIndex: 14, value: 1500, label: "Xiamen(恩施)"},  
+            {colorIndex: 5, value: 1500, label: "Xiamen(臃肿)"},    
+        ];
+
+        var subDataCN056_a = [
+            {colorIndex: 0, value: 10500, childData: subDataCN056_a1, label: "593/594/502/504~507"},
+            {colorIndex: 3, value: 10500, childData: subDataCN056_a2, label: "508/513/514/518/520/535/556"}, 
+            {colorIndex: 6, value: 10500, childData: subDataCN056_a3, label: "540/541/551/552/554/557/610"}, 
+            {colorIndex: 9, value: 10500, childData: subDataCN056_a4, label: "608/625/611/603/615/622/626"},
+            {colorIndex: 12, value: 10500, childData: subDataCN056_a5, label: "621/617/623/605/620/627/628"},                 
+        ];
+
         var subDataCNCV = [
             {colorIndex: 0, value: 33000, childData: subDataCN056, label: "Type 056"},             
             {colorIndex: 6, value: 52500, childData: subDataCN056_a, label: "Type 056A"},
