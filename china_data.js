@@ -96,15 +96,82 @@
             {colorIndex: 12, value: 14000, childData: subDataCNFrigate531, label: "Type 053H1/G"}, 
         ];
 
+        var subDataCNDe055 = [
+            {colorIndex: 0, value: 13000, label: "Nanchang(南昌)"}, 
+        ];
+
+        var subDataCNDe052_c = [
+            {colorIndex: 0, value: 7000, label: "Lanzhou(兰州)"},
+            {colorIndex: 3, value: 7000, label: "Haikou(海口)"}, 
+            {colorIndex: 5, value: 7000, label: "Changchun(长春)"}, 
+            {colorIndex: 7, value: 7000, label: "Zhengzhou(郑州)"}, 
+            {colorIndex: 9, value: 7000, label: "Jinan(济南)"}, 
+            {colorIndex: 11, value: 7000, label: "Xi'an(西安)"}, 
+        ];
+
+        var subDataCNDe052_d1 = [
+            {colorIndex: 0, value: 7500, label: "Kunming(昆明)"},
+            {colorIndex: 3, value: 7500, label: "Changsha(长沙)"}, 
+            {colorIndex: 6, value: 7500, label: "Hefei(合肥)"}, 
+            {colorIndex: 9, value: 7500, label: "Yinchuang(银川)"},
+            {colorIndex: 12, value: 7500, label: "Xining(西宁)"}, 
+            {colorIndex: 14, value: 7500, label: "Xiamen(厦门)"}, 
+            {colorIndex: 5, value: 7500, label: "Urumqi(乌鲁木齐)"},
+            {colorIndex: 8, value: 7500, label: "Guiyang(贵阳)"},                 
+        ];
+
+        var subDataCNDe052_d2 = [
+            {colorIndex: 0, value: 7500, label: "Nanjing(南京)"},
+            {colorIndex: 5, value: 7500, label: "Taiyuan(太原)"}, 
+            {colorIndex: 10, value: 7500, label: "Hohhot(呼和浩特)"}, 
+            {colorIndex: 14, value: 7500, label: "Chengdu(成都)"},
+        ];
+
+        var subDataCNDe052_d3 = [
+            {colorIndex: 0, value: 7500, label: "Zibo(淄博)"},
+        ];
+
+        var subDataCNDe052_d = [
+            {colorIndex: 0, value: 60000, childData: subDataCNDe052_d1, label: "Batch I"},
+            {colorIndex: 5, value: 30000, childData: subDataCNDe052_d2, label: "Batch II"}, 
+            {colorIndex: 10, value: 7500, childData: subDataCNDe052_d3, label: "Batch III"}, 
+        ];
+
+        var subDataCNDeSov = [
+            {colorIndex: 0, value: 8480, label: "Hangzhou(杭州)"},
+            {colorIndex: 5, value: 8480, label: "Fuzhou(福州)"}, 
+            {colorIndex: 10, value: 8480, label: "Taizhou(泰州)"}, 
+            {colorIndex: 14, value: 8480, label: "Ningbo(宁波)"}, 
+        ];
+
+        var subDataCNDe052 = [
+            {colorIndex: 0, value: 4800, label: "Harbin(哈尔滨)"},
+            {colorIndex: 5, value: 4800, label: "Qingdao(青岛)"}, 
+        ];
+
+        var subDataCNDe051_b = [
+            {colorIndex: 0, value: 6100, label: "Shenzhen(深圳)"},
+        ];
+
+        var subDataCNDe052_b = [
+            {colorIndex: 0, value: 6500, label: "Guangzhou(广州)"},
+            {colorIndex: 5, value: 6500, label: "Wuhan(武汉)"}, 
+        ];
+
+        var subDataCNDe051_c = [
+            {colorIndex: 0, value: 7100, label: "Shenyang(沈阳)"},
+            {colorIndex: 5, value: 7100, label: "Shijiazhuang(石家庄)"}, 
+        ];
+
         var subDataCNDestroyer = [
-            {colorIndex: 0, value: 13000, label: "Type 055"}, 
-            {colorIndex: 8, value: 90000, label: "Type 052D"}, 
-            {colorIndex: 4, value: 42000, label: "Type 052C"},
-            {colorIndex: 12, value: 14200, label: "Type 051C"}, 
-            {colorIndex: 4, value: 13000, label: "Type 052B"},
-            {colorIndex: 12, value: 6100, label: "Type 051B"}, 
-            {colorIndex: 12, value: 33920, label: "Sovremenny Class"},
-            {colorIndex: 12, value: 9600, label: "Type 052"},
+            {colorIndex: 0, value: 13000, childData: subDataCNDe055, label: "Type 055"},             
+            {colorIndex: 6, value: 42000, childData: subDataCNDe052_c, label: "Type 052C"},
+            {colorIndex: 8, value: 14200, childData: subDataCNDe051_c, label: "Type 051C"}, 
+            {colorIndex: 10, value: 13000, childData: subDataCNDe052_b, label: "Type 052B"},
+            {colorIndex: 2, value: 6100, childData: subDataCNDe051_b, label: "Type 051B"}, 
+            {colorIndex: 3, value: 97500, childData: subDataCNDe052_d, label: "Type 052D"},
+            {colorIndex: 14, value: 33920, childData: subDataCNDeSov, label: "Sovremenny Class"},
+            {colorIndex: 5, value: 9600, childData: subDataCNDe052, label: "Type 052"},
         ];
 
        var subDataChina = [
