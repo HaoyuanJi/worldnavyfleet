@@ -274,8 +274,29 @@
             {colorIndex: 6, value: 52500, childData: subDataCN056_a, label: "Type 056A"},
         ];
 
+        var subDataCNNBM = [
+            {colorIndex: 0, value: 66000, label: "Type 094/A (6 ships)"},             
+            {colorIndex: 6, value: 8000, label: "Type 092 (1 ship)"},
+        ];
+
+        var subDataCNNA = [
+            {colorIndex: 0, value: 16500, label: "Type 091 (3 ships)"},             
+            {colorIndex: 6, value: 63000, label: "Type 093/A/G (est. 9)"},
+        ];
+
+        var subDataCNC = [
+            {colorIndex: 0, value: 16500, label: "Type 091 (3 ships)"},             
+            {colorIndex: 6, value: 63000, label: "Type 093/A/G (est. 9)"},
+        ];
+
+        var subDataCNSM = [
+            {colorIndex: 0, value: 33000, childData: subDataCNC, label: "Conventional(常规)"},             
+            {colorIndex: 6, value: 52500, childData: subDataCNNA, label: "Nuclear Attack(核动力攻击)"},
+            {colorIndex: 6, value: 52500, childData: subDataCNNBM, label: "Nuclear Ballistic Missile(核动力弹道导弹)"},    
+        ];
+
        var subDataChina = [
-            {colorIndex: 0, value: 283040, label: "Submarine(潜艇)"},
+            {colorIndex: 0, value: 283040, childData: subDataCNSM, label: "Submarine(潜艇)"},
             {colorIndex: 6, value: 85500, childData: subDataCNCV, label: "Corvette(护卫舰)"},           
             {colorIndex: 12, value: 294700, label: "Amphibious Warfare Ships(两栖作战舰)"}, 
             {colorIndex: 14, value: 137500, childData: subDataCNAC, label: "Aircraft Carrier(航空母舰)"},
