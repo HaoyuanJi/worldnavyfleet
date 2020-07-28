@@ -251,129 +251,123 @@
             {colorIndex: 8, value: 39218, childData: subDataUSBr, label: "Blue Ridge Class"},
         ];
       
-//         var subDataUSCrT1 = [
-//             {colorIndex: 2, value: 9600, label: "Bunker Hill"},                    
-//             {colorIndex: 9, value: 9600, label: "Mobile Bay"}, 
-//             {colorIndex: 6, value: 9600, label: "Antietam"}, 
-//             {colorIndex: 12, value: 9600, label: "Leyte Gulf"},
-//             {colorIndex: 10, value: 9600, label: "San Jacinto"},
-//             {colorIndex: 8, value: 9600, label: "Lake Champlain"},
-//             {colorIndex: 14, value: 9600, label: "Philippine Sea"},
-//         ];
+        var subDataUSCrT1 = [
+            {colorIndex: 2, value: 9600, label: "Bunker Hill"},                    
+            {colorIndex: 9, value: 9600, label: "Mobile Bay"}, 
+            {colorIndex: 6, value: 9600, label: "Antietam"}, 
+            {colorIndex: 12, value: 9600, label: "Leyte Gulf"},
+            {colorIndex: 10, value: 9600, label: "San Jacinto"},
+            {colorIndex: 8, value: 9600, label: "Lake Champlain"},
+            {colorIndex: 14, value: 9600, label: "Philippine Sea"},
+        ];
       
-//        var subDataUSCrT2 = [
-//             {colorIndex: 2, value: 9600, label: "Princeton"},                    
-//             {colorIndex: 9, value: 9600, label: "Normandy"}, 
-//             {colorIndex: 6, value: 9600, label: "Monterey"}, 
-//             {colorIndex: 12, value: 9600, label: "Chancellorsville"},
-//             {colorIndex: 10, value: 9600, label: "Cowpens"},
-//             {colorIndex: 8, value: 9600, label: "Gettysburg"},
-//             {colorIndex: 14, value: 9600, label: "Chosin"},
-//         ];
+       var subDataUSCrT2 = [
+            {colorIndex: 2, value: 9600, label: "Princeton"},                    
+            {colorIndex: 9, value: 9600, label: "Normandy"}, 
+            {colorIndex: 6, value: 9600, label: "Monterey"}, 
+            {colorIndex: 12, value: 9600, label: "Chancellorsville"},
+            {colorIndex: 10, value: 9600, label: "Cowpens"},
+            {colorIndex: 8, value: 9600, label: "Gettysburg"},
+            {colorIndex: 14, value: 9600, label: "Chosin"},
+        ];
       
-//         var subDataUSCrT3 = [
-//             {colorIndex: 2, value: 9600, label: "Hue City"},                    
-//             {colorIndex: 9, value: 9600, label: "Shiloh"}, 
-//             {colorIndex: 6, value: 9600, label: "Anzio"}, 
-//             {colorIndex: 12, value: 9600, label: "Vicksburg"},
-//             {colorIndex: 10, value: 9600, label: "Lake Erie"},
-//             {colorIndex: 8, value: 9600, label: "Cape St. George"},
-//             {colorIndex: 14, value: 9600, label: "Vella Gulf"},
-//             {colorIndex: 4, value: 9600, label: "Port Royal"},
-//         ];
+        var subDataUSCrT3 = [
+            {colorIndex: 2, value: 9600, label: "Hue City"},                    
+            {colorIndex: 9, value: 9600, label: "Shiloh"}, 
+            {colorIndex: 6, value: 9600, label: "Anzio"}, 
+            {colorIndex: 12, value: 9600, label: "Vicksburg"},
+            {colorIndex: 10, value: 9600, label: "Lake Erie"},
+            {colorIndex: 8, value: 9600, label: "Cape St. George"},
+            {colorIndex: 14, value: 9600, label: "Vella Gulf"},
+            {colorIndex: 4, value: 9600, label: "Port Royal"},
+        ];
       
-//         var subDataUSCrT = [
-//             {colorIndex: 2, value: 67200, childData: subDataUSCrT1, label: "CG52~58"}, 
-//             {colorIndex: 6, value: 67200, childData: subDataUSCrT2, label: "CG59~65"},
-//             {colorIndex: 10, value: 76800, childData: subDataUSCrT3, label: "CG66~73"},
-//         ];
+        var subDataUSCrT = [
+            {colorIndex: 2, value: 67200, childData: subDataUSCrT1, label: "CG52~58"}, 
+            {colorIndex: 6, value: 67200, childData: subDataUSCrT2, label: "CG59~65"},
+            {colorIndex: 10, value: 76800, childData: subDataUSCrT3, label: "CG66~73"},
+        ];
       
-//         var subDataUSCr = [
-//             {colorIndex: 2, value: 211200, childData: subDataUSCrT, label: "Ticonderoga Class"},          
-//         ];
+        var subDataUSCr = [
+            {colorIndex: 2, value: 211200, childData: subDataUSCrT, label: "Ticonderoga Class"},          
+        ];
       
-//         var subDataUSDe11 = [
-//             {colorIndex: 2, value: 8184, label: "Arleigh Burke"},                    
-//             {colorIndex: 9, value: 8184, label: "Barry"}, 
-//             {colorIndex: 6, value: 8184, label: "Jones"}, 
-//             {colorIndex: 12, value: 8184, label: "Curtis Wilbur"},
-//             {colorIndex: 10, value: 8184, label: "Stout"},
-//         ];
+        var subDataUSDe11 = [
+            {colorIndex: 2, value: 8184, label: "Arleigh Burke"},                    
+            {colorIndex: 9, value: 8184, label: "Barry"}, 
+            {colorIndex: 6, value: 8184, label: "Jones"}, 
+            {colorIndex: 12, value: 8184, label: "Curtis Wilbur"},
+            {colorIndex: 10, value: 8184, label: "Stout"},
+        ];
       
-//         var subDataUSDe12 = [
-//             {colorIndex: 2, value: 8184, label: "McCain"},                    
-//             {colorIndex: 9, value: 8184, label: "Mitscher"}, 
-//             {colorIndex: 6, value: 8184, label: "Laboon"}, 
-//             {colorIndex: 12, value: 8184, label: "Russell"},
-//             {colorIndex: 10, value: 8184, label: "Paul Hamilton"},
-//         ];
+        var subDataUSDe12 = [
+            {colorIndex: 2, value: 8184, label: "McCain"},                    
+            {colorIndex: 9, value: 8184, label: "Mitscher"}, 
+            {colorIndex: 6, value: 8184, label: "Laboon"}, 
+            {colorIndex: 12, value: 8184, label: "Russell"},
+            {colorIndex: 10, value: 8184, label: "Paul Hamilton"},
+        ];
       
-//         var subDataUSDe13 = [
-//             {colorIndex: 2, value: 8184, label: "Ramage"},                    
-//             {colorIndex: 9, value: 8184, label: "Fitzgerald"}, 
-//             {colorIndex: 6, value: 8184, label: "Stethem"}, 
-//             {colorIndex: 12, value: 8184, label: "Carney"},
-//             {colorIndex: 10, value: 8184, label: "Benfold"},
-//         ];
+        var subDataUSDe13 = [
+            {colorIndex: 2, value: 8184, label: "Ramage"},                    
+            {colorIndex: 9, value: 8184, label: "Fitzgerald"}, 
+            {colorIndex: 6, value: 8184, label: "Stethem"}, 
+            {colorIndex: 12, value: 8184, label: "Carney"},
+            {colorIndex: 10, value: 8184, label: "Benfold"},
+        ];
       
-//         var subDataUSDe14 = [
-//             {colorIndex: 2, value: 8184, label: "Gonzalez"},                    
-//             {colorIndex: 9, value: 8184, label: "Cole"}, 
-//             {colorIndex: 6, value: 8184, label: "The Sullivans"}, 
-//             {colorIndex: 12, value: 8184, label: "Milius"},
-//             {colorIndex: 10, value: 8184, label: "Hopper"},
-//             {colorIndex: 5, value: 8184, label: "Ross"},
-//         ];
+        var subDataUSDe14 = [
+            {colorIndex: 2, value: 8184, label: "Gonzalez"},                    
+            {colorIndex: 9, value: 8184, label: "Cole"}, 
+            {colorIndex: 6, value: 8184, label: "The Sullivans"}, 
+            {colorIndex: 12, value: 8184, label: "Milius"},
+            {colorIndex: 10, value: 8184, label: "Hopper"},
+            {colorIndex: 5, value: 8184, label: "Ross"},
+        ];
       
-//         var subDataUSDe1 = [
-//             {colorIndex: 2, value: 40920, childData: subDataUSDe11, label: "DDG51~55"}, 
-//             {colorIndex: 6, value: 40920, childData: subDataUSDe12, label: "DDG56~60"},
-//             {colorIndex: 10, value: 40920, childData: subDataUSDe13, label: "DDG61~65"},
-//             {colorIndex: 14, value: 49104, childData: subDataUSDe14, label: "DDG66~71"},
-//         ];
+        var subDataUSDe1 = [
+            {colorIndex: 2, value: 40920, childData: subDataUSDe11, label: "DDG51~55"}, 
+            {colorIndex: 6, value: 40920, childData: subDataUSDe12, label: "DDG56~60"},
+            {colorIndex: 10, value: 40920, childData: subDataUSDe13, label: "DDG61~65"},
+            {colorIndex: 14, value: 49104, childData: subDataUSDe14, label: "DDG66~71"},
+        ];
       
-//         var subDataUSDe2 = [
-//             {colorIndex: 0, value: 8300, label: "Mahan"}, 
-//             {colorIndex: 3, value: 8300, label: "Decatur"},
-//             {colorIndex: 6, value: 8300, label: "McFaul"},
-//             {colorIndex: 9, value: 8300, label: "Donald Cook"},
-//             {colorIndex: 12, value: 8300, label: "Higgins"},
-//             {colorIndex: 14, value: 8300, label: "O'Kane"},
-//             {colorIndex: 4, value: 8300, label: "Porter"},
-//         ];
+        var subDataUSDe2 = [
+            {colorIndex: 0, value: 8300, label: "Mahan"}, 
+            {colorIndex: 3, value: 8300, label: "Decatur"},
+            {colorIndex: 6, value: 8300, label: "McFaul"},
+            {colorIndex: 9, value: 8300, label: "Donald Cook"},
+            {colorIndex: 12, value: 8300, label: "Higgins"},
+            {colorIndex: 14, value: 8300, label: "O'Kane"},
+            {colorIndex: 4, value: 8300, label: "Porter"},
+        ];
       
-//         var subDataUSDe21 = [
-//             {colorIndex: 2, value: 40920, label: "DDG51~55"}, 
-//             {colorIndex: 6, value: 40920, label: "DDG56~60"},
-//             {colorIndex: 10, value: 40920, label: "DDG61~65"},
-//             {colorIndex: 14, value: 49104, label: "DDG66~71"},
-//         ];
+        var subDataUSDe21 = [
+            {colorIndex: 2, value: 40920, label: "DDG51~55"}, 
+            {colorIndex: 6, value: 40920, label: "DDG56~60"},
+            {colorIndex: 10, value: 40920, label: "DDG61~65"},
+            {colorIndex: 14, value: 49104, label: "DDG66~71"},
+        ];
       
-//         var subDataUSDeZ = [
-//             {colorIndex: 2, value: 15995, label: "Zumwalt"}, 
-//             {colorIndex: 5, value: 15995, label: "Michael Monsoor"},
-//         ];
+        var subDataUSDeZ = [
+            {colorIndex: 2, value: 15995, label: "Zumwalt"}, 
+            {colorIndex: 5, value: 15995, label: "Michael Monsoor"},
+        ];
       
-//         var subDataUSDe = [
-//             {colorIndex: 2, value: 171864, childData: subDataUSDe1, label: "Arleigh Burke Flight I"}, 
-//             {colorIndex: 6, value: 58100, childData: subDataUSDe2, label: "Arleigh Burke Flight II"},
-//             {colorIndex: 10, value: 362700, childData: subDataUSDe21, label: "Arleigh Burke Flight IIA"},
-//             {colorIndex: 14, value: 31990, childData: subDataUSDeZ, label: "Zumwalt Class"},
-//         ];
+        var subDataUSDe = [
+            {colorIndex: 2, value: 171864, childData: subDataUSDe1, label: "Arleigh Burke Flight I"}, 
+            {colorIndex: 6, value: 58100, childData: subDataUSDe2, label: "Arleigh Burke Flight II"},
+            {colorIndex: 10, value: 362700, childData: subDataUSDe21, label: "Arleigh Burke Flight IIA"},
+            {colorIndex: 14, value: 31990, childData: subDataUSDeZ, label: "Zumwalt Class"},
+        ];
 
         var subDataUS = [
-//             {colorIndex: 0, value: 371470, childData: subDataUSSM, label: "Submarine"},
-//             {colorIndex: 6, value: 65644, childData: subDataUSLCS, label: "Littoral combat ship"},           
-//             {colorIndex: 12, value: 930660, childData: subDataUSAWS, label: "Amphibious Warfare Ships"}, 
-//             {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
-//             {colorIndex: 10, value: 211200, childData: subDataUSCr, label: "Cruiser"},
-//             {colorIndex: 8, value: 624654, childData: subDataUSDe, label: "Destroyer"}, 
             {colorIndex: 0, value: 371470, childData: subDataUSSM, label: "Submarine"},
             {colorIndex: 6, value: 65644, childData: subDataUSLCS, label: "Littoral combat ship"},           
             {colorIndex: 12, value: 930660, childData: subDataUSAWS, label: "Amphibious Warfare Ships"}, 
             {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
-            {colorIndex: 10, value: 211200, label: "Cruiser"},
-            {colorIndex: 8, value: 624654, label: "Destroyer"}, 
+            {colorIndex: 10, value: 211200, childData: subDataUSCr, label: "Cruiser"},
+            {colorIndex: 8, value: 624654, childData: subDataUSDe, label: "Destroyer"}, 
         ];
       
         var subData610 = [        
