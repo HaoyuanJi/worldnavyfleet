@@ -341,12 +341,71 @@
             {colorIndex: 14, value: 8300, label: "O'Kane"},
             {colorIndex: 4, value: 8300, label: "Porter"},
         ];
+
+        var subDataUSDe211 = [
+            {colorIndex: 0, value: 9300, label: "Austin"}, 
+            {colorIndex: 3, value: 9300, label: "Roosevelt"},
+            {colorIndex: 6, value: 9300, label: "Churchill"},
+            {colorIndex: 9, value: 9300, label: "Lassen"},
+            {colorIndex: 12, value: 9300, label: "Howard"},
+            {colorIndex: 14, value: 9300, label: "Bulkeley"},
+            {colorIndex: 4, value: 9300, label: "McCampbell"},
+        ];
+
+        var subDataUSDe212 = [
+            {colorIndex: 0, value: 9300, label: "Shoup"}, 
+            {colorIndex: 3, value: 9300, label: "Mason"},
+            {colorIndex: 6, value: 9300, label: "Preble"},
+            {colorIndex: 9, value: 9300, label: "Mustin"},
+            {colorIndex: 12, value: 9300, label: "Chafee"},
+            {colorIndex: 14, value: 9300, label: "Pinckney"},
+            {colorIndex: 4, value: 9300, label: "Momsen"},
+        ];
+
+        var subDataUSDe213 = [
+            {colorIndex: 0, value: 9300, label: "Chung-Hoon"}, 
+            {colorIndex: 3, value: 9300, label: "Nitze"},
+            {colorIndex: 6, value: 9300, label: "James E. Williams"},
+            {colorIndex: 9, value: 9300, label: "Bainbridge"},
+            {colorIndex: 12, value: 9300, label: "Halsey"},
+            {colorIndex: 14, value: 9300, label: "Forrest Sherman"},
+            {colorIndex: 4, value: 9300, label: "Farragut"},
+        ];
+
+        var subDataUSDe214 = [
+            {colorIndex: 0, value: 9300, label: "Kidd"}, 
+            {colorIndex: 3, value: 9300, label: "Gridley"},
+            {colorIndex: 6, value: 9300, label: "Sampson"},
+            {colorIndex: 9, value: 9300, label: "Truxtun"},
+            {colorIndex: 12, value: 9300, label: "Sterett"},
+            {colorIndex: 14, value: 9300, label: "Dewey"},
+            {colorIndex: 4, value: 9300, label: "Stockdale"},
+        ];
+
+        var subDataUSDe215 = [
+            {colorIndex: 0, value: 9300, label: "Gravely"}, 
+            {colorIndex: 3, value: 9300, label: "Meyer"},
+            {colorIndex: 6, value: 9300, label: "Dunham"},
+            {colorIndex: 9, value: 9300, label: "Lawrence"},
+            {colorIndex: 12, value: 9300, label: "Spruance"},
+            {colorIndex: 14, value: 9300, label: "Murphy"},
+            {colorIndex: 4, value: 9300, label: "Finn"},
+        ];
+
+        var subDataUSDe216 = [
+            {colorIndex: 0, value: 9300, label: "Johnson"}, 
+            {colorIndex: 3, value: 9300, label: "Peralta"},
+            {colorIndex: 6, value: 9300, label: "Hudner"},
+            {colorIndex: 9, value: 9300, label: "Ignatius"},
+        ];
       
         var subDataUSDe21 = [
-            {colorIndex: 2, value: 40920, label: "DDG51~55"}, 
-            {colorIndex: 6, value: 40920, label: "DDG56~60"},
-            {colorIndex: 10, value: 40920, label: "DDG61~65"},
-            {colorIndex: 14, value: 49104, label: "DDG66~71"},
+            {colorIndex: 2, value: 65100, childData: subDataUSDe211, label: "DDG79~85"}, 
+            {colorIndex: 6, value: 65100, childData: subDataUSDe212, label: "DDG86~92"},
+            {colorIndex: 10, value: 65100, childData: subDataUSDe213, label: "DDG93~99"},
+            {colorIndex: 14, value: 65100, childData: subDataUSDe214, label: "DDG100~106"},
+            {colorIndex: 8, value: 65100, childData: subDataUSDe215, label: "DDG107~113"},
+            {colorIndex: 5, value: 37200, childData: subDataUSDe216, label: "DDG114~117"},
         ];
       
         var subDataUSDeZ = [
