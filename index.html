@@ -524,8 +524,8 @@
                 .innerRadius(radius - 20);
 
             pie = d3.pie()
-                .startAngle(Math.PI / 4) // <-- Setting startAngle of the layout
-                .endAngle(Math.PI * 2 + Math.PI / 4) // <-- and endAngle
+                .startAngle(Math.PI * 3 / 8) // <-- Setting startAngle of the layout
+                .endAngle(Math.PI * 2 + Math.PI * 3 / 8) // <-- and endAngle
                 .value(function(d){
                     return d.value;
                 })
