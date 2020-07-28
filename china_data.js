@@ -9,7 +9,7 @@
             {colorIndex: 4, value: 70000, label: "Shandong"},
         ];
 
-        var subDataUSAC = [
+        var subDataCNAC = [
             {colorIndex: 0, value: 67500, childData: subDataChinaAC1, label: "Type 001"},
             {colorIndex: 8, value: 70000, childData: subDataChinaAC2, label: "Type 002"}, 
         ];
