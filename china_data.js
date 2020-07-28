@@ -166,10 +166,10 @@
         var subDataCNDestroyer = [
             {colorIndex: 0, value: 13000, childData: subDataCNDe055, label: "Type 055"},             
             {colorIndex: 6, value: 42000, childData: subDataCNDe052_c, label: "Type 052C"},
-            {colorIndex: 8, value: 14200, childData: subDataCNDe051_c, label: "Type 051C"}, 
-            {colorIndex: 10, value: 13000, childData: subDataCNDe052_b, label: "Type 052B"},
+            {colorIndex: 8, value: 14200, childData: subDataCNDe051_c, label: "Type 051C"},          
             {colorIndex: 2, value: 6100, childData: subDataCNDe051_b, label: "Type 051B"}, 
             {colorIndex: 3, value: 97500, childData: subDataCNDe052_d, label: "Type 052D"},
+            {colorIndex: 10, value: 13000, childData: subDataCNDe052_b, label: "Type 052B"},
             {colorIndex: 14, value: 33920, childData: subDataCNDeSov, label: "Sovremenny Class"},
             {colorIndex: 5, value: 9600, childData: subDataCNDe052, label: "Type 052"},
         ];
