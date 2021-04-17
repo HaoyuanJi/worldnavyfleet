@@ -397,6 +397,7 @@
             {colorIndex: 3, value: 9300, label: "Peralta"},
             {colorIndex: 6, value: 9300, label: "Hudner"},
             {colorIndex: 9, value: 9300, label: "Ignatius"},
+            {colorIndex: 12, value: 9300, label: "Black"},
         ];
       
         var subDataUSDe21 = [
@@ -405,7 +406,7 @@
             {colorIndex: 10, value: 65100, childData: subDataUSDe213, label: "DDG93~99"},
             {colorIndex: 14, value: 65100, childData: subDataUSDe214, label: "DDG100~106"},
             {colorIndex: 8, value: 65100, childData: subDataUSDe215, label: "DDG107~113"},
-            {colorIndex: 5, value: 37200, childData: subDataUSDe216, label: "DDG114~117"},
+            {colorIndex: 5, value: 46500, childData: subDataUSDe216, label: "DDG114~117"},
         ];
       
         var subDataUSDeZ = [
