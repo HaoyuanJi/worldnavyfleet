@@ -406,7 +406,7 @@
             {colorIndex: 10, value: 65100, childData: subDataUSDe213, label: "DDG93~99"},
             {colorIndex: 14, value: 65100, childData: subDataUSDe214, label: "DDG100~106"},
             {colorIndex: 8, value: 65100, childData: subDataUSDe215, label: "DDG107~113"},
-            {colorIndex: 5, value: 46500, childData: subDataUSDe216, label: "DDG114~117"},
+            {colorIndex: 5, value: 46500, childData: subDataUSDe216, label: "DDG114~117,119"},
         ];
       
         var subDataUSDeZ = [
