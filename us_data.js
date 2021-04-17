@@ -417,7 +417,7 @@
         var subDataUSDe = [
             {colorIndex: 2, value: 171864, childData: subDataUSDe1, label: "Arleigh Burke Flight I"}, 
             {colorIndex: 6, value: 58100, childData: subDataUSDe2, label: "Arleigh Burke Flight II"},
-            {colorIndex: 10, value: 362700, childData: subDataUSDe21, label: "Arleigh Burke Flight IIA"},
+            {colorIndex: 10, value: 372000, childData: subDataUSDe21, label: "Arleigh Burke Flight IIA"},
             {colorIndex: 14, value: 31990, childData: subDataUSDeZ, label: "Zumwalt Class"},
         ];
 
@@ -427,5 +427,5 @@
             {colorIndex: 12, value: 930660, childData: subDataUSAWS, label: "Amphibious Warfare Ships"}, 
             {colorIndex: 14, value: 1100000, childData: subDataUSAC, label: "Aircraft Carrier"},
             {colorIndex: 10, value: 211200, childData: subDataUSCr, label: "Cruiser"},
-            {colorIndex: 8, value: 624654, childData: subDataUSDe, label: "Destroyer"}, 
+            {colorIndex: 8, value: 633954, childData: subDataUSDe, label: "Destroyer"}, 
         ];
